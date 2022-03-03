@@ -1,0 +1,199 @@
+Search "measureTime" (28 hits in 6 files of 337 searched)
+========================================================
+  tensorflow\lite\micro\kernels\conv.cpp (3 hits)
+	Line 39:   TflmTimer::measureTime(CMSIS_CONV);
+	TfLiteStatus Eval(TfLiteContext* context, TfLiteNode* node) {
+  TflmTimer::measureTime(CMSIS_CONV);
+	Line 107:       TflmTimer::measureTime(CMSIS_CONV);
+	Line 110:   TflmTimer::measureTime(CMSIS_CONV);
+	      TflmTimer::measureTime(CMSIS_CONV);
+      return kTfLiteError;
+  }
+  TflmTimer::measureTime(CMSIS_CONV);
+  return kTfLiteOk;
+  tensorflow\lite\micro\kernels\fully_connected.cpp (3 hits)
+	Line 71:             TflmTimer::measureTime(CMSIS_FULLY_CONNECTED);
+	TfLiteStatus Eval(TfLiteContext *context, TfLiteNode *node)
+        {
+            TflmTimer::measureTime(CMSIS_FULLY_CONNECTED);
+	Line 131:                 TflmTimer::measureTime(CMSIS_FULLY_CONNECTED);
+	Line 135:             TflmTimer::measureTime(CMSIS_FULLY_CONNECTED);
+	                TflmTimer::measureTime(CMSIS_FULLY_CONNECTED);
+                return kTfLiteError;
+            }
+            }
+            TflmTimer::measureTime(CMSIS_FULLY_CONNECTED);
+            return kTfLiteOk;
+        }
+  tensorflow\lite\micro\kernels\pooling.cpp (6 hits)
+	Line 31:       TflmTimer::measureTime(CMSIS_AVG_POOLING);
+	TfLiteStatus AverageEval(TfLiteContext *context, TfLiteNode *node)
+    {
+      TflmTimer::measureTime(CMSIS_AVG_POOLING);
+	Line 56:         TflmTimer::measureTime(CMSIS_AVG_POOLING);
+	Line 59:       TflmTimer::measureTime(CMSIS_AVG_POOLING);
+	        TflmTimer::measureTime(CMSIS_AVG_POOLING);
+        return kTfLiteError;
+      }
+      TflmTimer::measureTime(CMSIS_AVG_POOLING);
+      return kTfLiteOk;
+    }
+	Line 65:       TflmTimer::measureTime(CMSIS_MAX_POOLING);
+	    TfLiteStatus MaxEval(TfLiteContext *context, TfLiteNode *node)
+    {
+      TflmTimer::measureTime(CMSIS_MAX_POOLING);
+	Line 89:         TflmTimer::measureTime(CMSIS_MAX_POOLING);
+	Line 92:       TflmTimer::measureTime(CMSIS_MAX_POOLING);
+	        TflmTimer::measureTime(CMSIS_MAX_POOLING);
+        return kTfLiteError;
+      }
+      TflmTimer::measureTime(CMSIS_MAX_POOLING);
+      return kTfLiteOk;
+    }
+  tensorflow\lite\micro\kernels\quantize_common.cpp (10 hits)
+	Line 89:     TflmTimer::measureTime(QUANTIZE);
+  TfLiteStatus EvalQuantizeReference(TfLiteContext *context, TfLiteNode *node)
+  {
+    TflmTimer::measureTime(QUANTIZE);
+	Line 113:         TflmTimer::measureTime(QUANTIZE);
+	Line 119:         TflmTimer::measureTime(QUANTIZE);
+        TflmTimer::measureTime(QUANTIZE);
+        return kTfLiteOk;
+      default:
+        TF_LITE_KERNEL_LOG(context, "Input %s, output %s not supported.",
+                           TfLiteTypeGetName(input->type),
+                           TfLiteTypeGetName(output->type));
+        TflmTimer::measureTime(QUANTIZE);
+        return kTfLiteError;
+	Line 146:         TflmTimer::measureTime(QUANTIZE);
+default:
+        TF_LITE_KERNEL_LOG(context, "Input %s, output %s not supported.",
+                           TfLiteTypeGetName(input->type),
+                           TfLiteTypeGetName(output->type));
+        TflmTimer::measureTime(QUANTIZE);
+	Line 168:         TflmTimer::measureTime(QUANTIZE);
+	Line 176:         TflmTimer::measureTime(QUANTIZE);
+	Line 182:         TflmTimer::measureTime(QUANTIZE);
+     case kTfLiteInt16:
+        reference_ops::Requantize(
+            tflite::micro::GetTensorData<int16_t>(input), size,
+            data->requantize_output_multiplier, data->requantize_output_shift,
+            data->input_zero_point, data->quantization_params.zero_point,
+            tflite::micro::GetTensorData<int16_t>(output));
+        TflmTimer::measureTime(QUANTIZE);
+        return kTfLiteOk;
+      case kTfLiteInt32:
+        reference_ops::Requantize(
+            tflite::micro::GetTensorData<int16_t>(input), size,
+            data->requantize_output_multiplier, data->requantize_output_shift,
+            data->input_zero_point, data->quantization_params.zero_point,
+            tflite::micro::GetTensorData<int32_t>(output));
+        TflmTimer::measureTime(QUANTIZE);
+        return kTfLiteOk;
+      default:
+        TF_LITE_KERNEL_LOG(context, "Input %s, output %s not supported.",
+                           TfLiteTypeGetName(input->type),
+                           TfLiteTypeGetName(output->type));
+        TflmTimer::measureTime(QUANTIZE);
+        return kTfLiteError;
+	Line 218:         TflmTimer::measureTime(QUANTIZE);
+	Line 227:       TflmTimer::measureTime(QUANTIZE);
+	Line 230:     TflmTimer::measureTime(QUANTIZE);
+	        TflmTimer::measureTime(QUANTIZE);
+        return kTfLiteError;
+      }
+    }
+    else
+    {
+      TF_LITE_KERNEL_LOG(context, "Input %s, output %s not supported.",
+                         TfLiteTypeGetName(input->type),
+                         TfLiteTypeGetName(output->type));
+      TflmTimer::measureTime(QUANTIZE);
+      return kTfLiteError;
+    }
+    TflmTimer::measureTime(QUANTIZE);
+    return kTfLiteOk;
+  }
+  tensorflow\lite\micro\kernels\softmax.cpp (4 hits)
+	Line 68:       TflmTimer::measureTime(CMSIS_SOFTMAX);
+	    TfLiteStatus SoftmaxEval(TfLiteContext *context, TfLiteNode *node)
+    {
+      TflmTimer::measureTime(CMSIS_SOFTMAX);
+	Line 84:         TflmTimer::measureTime(CMSIS_SOFTMAX);
+	Line 91:         TflmTimer::measureTime(CMSIS_SOFTMAX);
+	Line 97:         TflmTimer::measureTime(CMSIS_SOFTMAX);
+	        TflmTimer::measureTime(CMSIS_SOFTMAX);
+        return kTfLiteOk;
+      }
+      case kTfLiteInt8:
+      case kTfLiteInt16:
+      {
+        SoftmaxQuantized(input, output, op_data);
+        TflmTimer::measureTime(CMSIS_SOFTMAX);
+        return kTfLiteOk;
+      }
+      default:
+        TF_LITE_KERNEL_LOG(context, "Type %s (%d) not supported.",
+                           TfLiteTypeGetName(input->type), input->type);
+        TflmTimer::measureTime(CMSIS_SOFTMAX);
+        return kTfLiteError;
+      }
+  tensorflow\lite\micro\micro_interpreter.cpp (2 hits)
+	Line 287:     TflmTimer::measureTime(TFLM_INVOKE);
+	Line 300:     TflmTimer::measureTime(TFLM_INVOKE);
+	    TflmTimer::measureTime(TFLM_INVOKE);
+  if (initialization_status_ != kTfLiteOk) {
+    TF_LITE_REPORT_ERROR(error_reporter_,
+                         "Invoke() called after initialization failed\n");
+    return kTfLiteError;
+  }
+
+  // Ensure tensors are allocated before the interpreter is invoked to avoid
+  // difficult to debug segfaults.
+  if (!tensors_allocated_) {
+    TF_LITE_ENSURE_OK(&context_, AllocateTensors());
+  }
+  TfLiteStatus status = graph_.InvokeSubgraph(0);
+    TflmTimer::measureTime(TFLM_INVOKE);
+	
+Search "[RecordingMicroAllocator]" (4 hits in 1 file of 174 searched)
+======================================================================
+  tensorflow\lite\micro\recording_micro_allocator.cpp (4 hits)
+	Line 106:       "[RecordingMicroAllocator] Arena allocation total %d bytes",
+	Line 110:       "[RecordingMicroAllocator] Arena allocation head %d bytes",
+	Line 114:       "[RecordingMicroAllocator] Arena allocation tail %d bytes",
+void RecordingMicroAllocator::PrintAllocations() const {
+  TF_LITE_REPORT_ERROR(
+      error_reporter(),
+      "[RecordingMicroAllocator] Arena allocation total %d bytes",
+      recording_memory_allocator_->GetUsedBytes());
+  TF_LITE_REPORT_ERROR(
+      error_reporter(),
+      "[RecordingMicroAllocator] Arena allocation head %d bytes",
+      recording_memory_allocator_->GetHeadUsedBytes());
+  TF_LITE_REPORT_ERROR(
+      error_reporter(),
+      "[RecordingMicroAllocator] Arena allocation tail %d bytes",
+	Line 151:         "[RecordingMicroAllocator] '%s' used %d bytes with alignment overhead "
+void RecordingMicroAllocator::PrintRecordedAllocation(
+    RecordedAllocationType allocation_type, const char* allocation_name,
+    const char* allocation_description) const {
+#ifndef TF_LITE_STRIP_ERROR_STRINGS
+  RecordedAllocation allocation = GetRecordedAllocation(allocation_type);
+  if (allocation.used_bytes > 0 || allocation.requested_bytes > 0) {
+    TF_LITE_REPORT_ERROR(
+        error_reporter(),
+        "[RecordingMicroAllocator] '%s' used %d bytes with alignment overhead "
+
+Search "arena_used_bytes" (2 hits in 1 file of 174 searched)
+==========================================================
+  tensorflow\lite\micro\micro_interpreter.h (2 hits)
+	Line 135:   // arena_used_bytes() + 16.
+	Line 136:   size_t arena_used_bytes() const { return allocator_.used_bytes(); }
+	
+Search "PrintAllocations" (2 hits in 2 files of 174 searched)
+==========================================================
+  tensorflow\lite\micro\recording_micro_allocator.cpp (1 hit)
+	Line 103: void RecordingMicroAllocator::PrintAllocations() const {
+  tensorflow\lite\micro\recording_micro_allocator.h (1 hit)
+	Line 72:   void PrintAllocations() const;

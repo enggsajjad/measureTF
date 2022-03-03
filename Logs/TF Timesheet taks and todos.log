@@ -1,0 +1,106 @@
+=================
+Progress
+=================
+
+
+
+=================
+DOCS
+=================
+
+
+
+=================
+Examples
+=================
+Arduino
+-------
+ArduCAM_Mini_2MP_OV2640_functions:/camera interface example on Pi Pico
+hello_world:// Hello World Example Sine Models
+hello_world_tobias://Using Arduino Lib and Tobias Class/Model structures with a arduino helloworld like resolver
+hello_world_tobias1://Using Tobias Lib and Tobias Class/Model structures
+person_detection://personal detection example
+tensorlite_ex1://indigenous helloworld for sine model, trained in google colab, arduino lib (another version)
+tensorlite_ex11://indigenous helloworld for sine model, trained in google colab, arduino lib
+tensorlite_ex11_addlayer://Added a fourth layer to see the variations in layers in the code, arduino lib
+tensorlite_ex2://indigenous helloworld for sine model, trained in google colab, arduino lib (another version)
+tensorlite_line://an linear expression model y=2x+1 to see the variations in layers in the code, arduino lib
+
+Visual Studio Code
+------------------
+firmware://basic code from tobias
+firmware_forNanoHelloGithub://executing sine model on led using arduino lib \lib\tflite_micro_stock are removed to save the space
+
+
+
+=================
+Repos and important links
+=================
+https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/docs
+
+
+TFLM Code Size FAQ - memory_footprint
+https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/memory_footprint
+Hello World Example
+https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/hello_world
+Memory Management in TensorFlow Lite Micro
+https://github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/docs/memory_management.md
+
+
+
+
+
+=================
+git repos init
+=================
+Sajjad@i80pc100 MINGW64 /d
+$ cd git
+GitProjects/ github/
+
+Sajjad@i80pc100 MINGW64 /d
+$ created a repository on github manually called "measureTF"  ^C
+
+Sajjad@i80pc100 MINGW64 /d
+$ cd github/
+
+Sajjad@i80pc100 MINGW64 /d/github
+$ git clone https://github.com/enggsajjad/measureTF.git
+Cloning into 'measureTF'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Sajjad@i80pc100 MINGW64 /d/github
+$ cd measureTF/
+
+Sajjad@i80pc100 MINGW64 /d
+$ copied different folders here ^C
+
+
+Sajjad@i80pc100 MINGW64 /d/github/measureTF (main)
+$ ls
+Docs/  Examples/  Libraries/  Logs/  README.md
+
+Sajjad@i80pc100 MINGW64 /d/github/measureTF (main)
+$ git add --all
+
+Sajjad@i80pc100 MINGW64 /d/github/measureTF (main)
+$ git commit -m "adding folders and modified readme"
+[main b69fdfe] adding folders and modified readme
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+Sajjad@i80pc100 MINGW64 /d/github/measureTF (main)
+$ git push --all
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 334 bytes | 334.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/enggsajjad/measureTF.git
+   d0f7fff..b69fdfe  main -> main
+
+Sajjad@i80pc100 MINGW64 /d/github/measureTF (main)
+$
+
