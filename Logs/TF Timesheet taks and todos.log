@@ -29,9 +29,10 @@ tensorlite_line://an linear expression model y=2x+1 to see the variations in lay
 Visual Studio Code
 ------------------
 firmware://basic code from tobias
-firmware_forNanoHelloGithub://executing sine model on led using arduino lib \lib\tflite_micro_stock are removed to save the space
-
-
+firmware_forNano://executing sine model on led using arduino lib \lib\tflite_micro_stock are removed to save the space
+firmware_forNanoArduinoLib://executing sine model on led using arduino lib
+firmware_forNanoHelloGithub://executing sine model on led using tobias lib
+myblink://blink led
 
 =================
 Repos and important links

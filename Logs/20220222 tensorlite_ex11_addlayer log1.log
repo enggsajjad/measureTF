@@ -1,0 +1,9670 @@
+  //static tflite::ops::micro::AllOpsResolver micro_mutable_op_resolver;
+  static tflite::MicroMutableOpResolver micro_mutable_op_resolver; //sajjad
+  micro_mutable_op_resolver.AddBuiltin(
+    tflite::BuiltinOperator_FULLY_CONNECTED,
+    tflite::ops::micro::Register_FULLY_CONNECTED(),
+    1, 3);
+
+
+========
+LED Works
+=========
+
+Serial Monitor
+================
+
+Number of dimensions: 2
+Dim 1 size: 1
+Dim 2 size: 1
+Input type: 1
+181
+
+Time for inference (us): 927
+183
+
+Time for inference (us): 699
+183
+
+Time for inference (us): 1008
+184
+
+Time for inference (us): 708
+184
+
+Time for inference (us): 701
+184
+
+Time for inference (us): 734
+185
+
+Time for inference (us): 924
+185
+
+Time for inference (us): 754
+186
+
+Time for inference (us): 896
+186
+
+Time for inference (us): 1009
+186
+
+Time for inference (us): 1034
+187
+
+Time for inference (us): 1032
+187
+
+Time for inference (us): 860
+188
+
+Time for inference (us): 697
+188
+
+Time for inference (us): 743
+188
+
+Time for inference (us): 1036
+189
+
+Time for inference (us): 791
+189
+
+Time for inference (us): 1039
+190
+
+Time for inference (us): 797
+190
+
+Time for inference (us): 925
+191
+
+Time for inference (us): 778
+191
+
+Time for inference (us): 692
+192
+
+Time for inference (us): 744
+192
+
+Time for inference (us): 805
+192
+
+Time for inference (us): 695
+193
+
+Time for inference (us): 696
+193
+
+Time for inference (us): 983
+194
+
+Time for inference (us): 784
+194
+
+Time for inference (us): 692
+194
+
+Time for inference (us): 693
+195
+
+Time for inference (us): 742
+195
+
+Time for inference (us): 684
+196
+
+Time for inference (us): 752
+196
+
+Time for inference (us): 843
+197
+
+Time for inference (us): 692
+197
+
+Time for inference (us): 741
+197
+
+Time for inference (us): 704
+198
+
+Time for inference (us): 728
+198
+
+Time for inference (us): 718
+199
+
+Time for inference (us): 1017
+199
+
+Time for inference (us): 862
+200
+
+Time for inference (us): 707
+200
+
+Time for inference (us): 991
+201
+
+Time for inference (us): 753
+201
+
+Time for inference (us): 877
+201
+
+Time for inference (us): 848
+202
+
+Time for inference (us): 693
+202
+
+Time for inference (us): 795
+203
+
+Time for inference (us): 715
+203
+
+Time for inference (us): 885
+204
+
+Time for inference (us): 1044
+204
+
+Time for inference (us): 769
+204
+
+Time for inference (us): 716
+205
+
+Time for inference (us): 673
+205
+
+Time for inference (us): 707
+206
+
+Time for inference (us): 832
+206
+
+Time for inference (us): 784
+207
+
+Time for inference (us): 692
+207
+
+Time for inference (us): 768
+207
+
+Time for inference (us): 684
+208
+
+Time for inference (us): 751
+208
+
+Time for inference (us): 845
+209
+
+Time for inference (us): 692
+209
+
+Time for inference (us): 781
+209
+
+Time for inference (us): 701
+210
+
+Time for inference (us): 716
+210
+
+Time for inference (us): 1034
+211
+
+Time for inference (us): 979
+211
+
+Time for inference (us): 670
+212
+
+Time for inference (us): 714
+212
+
+Time for inference (us): 826
+212
+
+Time for inference (us): 783
+213
+
+Time for inference (us): 887
+213
+
+Time for inference (us): 714
+214
+
+Time for inference (us): 702
+214
+
+Time for inference (us): 715
+215
+
+Time for inference (us): 969
+215
+
+Time for inference (us): 784
+215
+
+Time for inference (us): 769
+216
+
+Time for inference (us): 665
+216
+
+Time for inference (us): 897
+217
+
+Time for inference (us): 968
+217
+
+Time for inference (us): 1014
+218
+
+Time for inference (us): 685
+218
+
+Time for inference (us): 852
+218
+
+Time for inference (us): 752
+219
+
+Time for inference (us): 851
+219
+
+Time for inference (us): 719
+220
+
+Time for inference (us): 753
+220
+
+Time for inference (us): 702
+220
+
+Time for inference (us): 759
+221
+
+Time for inference (us): 823
+221
+
+Time for inference (us): 785
+222
+
+Time for inference (us): 766
+222
+
+Time for inference (us): 787
+222
+
+Time for inference (us): 915
+223
+
+Time for inference (us): 895
+223
+
+Time for inference (us): 707
+224
+
+Time for inference (us): 690
+224
+
+Time for inference (us): 743
+225
+
+Time for inference (us): 862
+225
+
+Time for inference (us): 707
+226
+
+Time for inference (us): 846
+226
+
+Time for inference (us): 995
+227
+
+Time for inference (us): 965
+227
+
+Time for inference (us): 882
+228
+
+Time for inference (us): 886
+228
+
+Time for inference (us): 1017
+228
+
+Time for inference (us): 751
+229
+
+Time for inference (us): 890
+229
+
+Time for inference (us): 851
+230
+
+Time for inference (us): 1017
+230
+
+Time for inference (us): 683
+231
+
+Time for inference (us): 699
+231
+
+Time for inference (us): 991
+232
+
+Time for inference (us): 726
+232
+
+Time for inference (us): 729
+232
+
+Time for inference (us): 742
+232
+
+Time for inference (us): 1031
+233
+
+Time for inference (us): 746
+233
+
+Time for inference (us): 770
+233
+
+Time for inference (us): 905
+234
+
+Time for inference (us): 718
+234
+
+Time for inference (us): 997
+234
+
+Time for inference (us): 751
+235
+
+Time for inference (us): 829
+235
+
+Time for inference (us): 964
+235
+
+Time for inference (us): 817
+236
+
+Time for inference (us): 839
+236
+
+Time for inference (us): 1005
+236
+
+Time for inference (us): 945
+237
+
+Time for inference (us): 672
+237
+
+Time for inference (us): 713
+237
+
+Time for inference (us): 1003
+238
+
+Time for inference (us): 763
+238
+
+Time for inference (us): 673
+238
+
+Time for inference (us): 759
+239
+
+Time for inference (us): 965
+239
+
+Time for inference (us): 693
+239
+
+Time for inference (us): 761
+239
+
+Time for inference (us): 701
+240
+
+Time for inference (us): 706
+240
+
+Time for inference (us): 985
+240
+
+Time for inference (us): 751
+241
+
+Time for inference (us): 669
+241
+
+Time for inference (us): 904
+241
+
+Time for inference (us): 1000
+242
+
+Time for inference (us): 742
+242
+
+Time for inference (us): 825
+242
+
+Time for inference (us): 984
+243
+
+Time for inference (us): 939
+243
+
+Time for inference (us): 719
+243
+
+Time for inference (us): 702
+244
+
+Time for inference (us): 751
+244
+
+Time for inference (us): 691
+244
+
+Time for inference (us): 693
+245
+
+Time for inference (us): 760
+245
+
+Time for inference (us): 684
+245
+
+Time for inference (us): 717
+245
+
+Time for inference (us): 1010
+246
+
+Time for inference (us): 751
+246
+
+Time for inference (us): 894
+246
+
+Time for inference (us): 717
+247
+
+Time for inference (us): 1041
+247
+
+Time for inference (us): 856
+247
+
+Time for inference (us): 883
+248
+
+Time for inference (us): 692
+248
+
+Time for inference (us): 691
+248
+
+Time for inference (us): 746
+249
+
+Time for inference (us): 730
+249
+
+Time for inference (us): 706
+249
+
+Time for inference (us): 851
+250
+
+Time for inference (us): 875
+250
+
+Time for inference (us): 713
+250
+
+Time for inference (us): 877
+250
+
+Time for inference (us): 1028
+251
+
+Time for inference (us): 693
+251
+
+Time for inference (us): 735
+251
+
+Time for inference (us): 683
+252
+
+Time for inference (us): 975
+252
+
+Time for inference (us): 798
+252
+
+Time for inference (us): 820
+253
+
+Time for inference (us): 919
+253
+
+Time for inference (us): 775
+253
+
+Time for inference (us): 751
+253
+
+Time for inference (us): 903
+254
+
+Time for inference (us): 986
+254
+
+Time for inference (us): 856
+254
+
+Time for inference (us): 780
+255
+
+Time for inference (us): 685
+255
+
+Time for inference (us): 771
+255
+
+Time for inference (us): 1054
+255
+
+Time for inference (us): 937
+255
+
+Time for inference (us): 1003
+256
+
+Time for inference (us): 757
+256
+
+Time for inference (us): 847
+256
+
+Time for inference (us): 717
+256
+
+Time for inference (us): 1028
+257
+
+Time for inference (us): 763
+257
+
+Time for inference (us): 789
+257
+
+Time for inference (us): 951
+257
+
+Time for inference (us): 701
+257
+
+Time for inference (us): 706
+258
+
+Time for inference (us): 985
+258
+
+Time for inference (us): 745
+258
+
+Time for inference (us): 801
+258
+
+Time for inference (us): 676
+259
+
+Time for inference (us): 959
+259
+
+Time for inference (us): 693
+259
+
+Time for inference (us): 745
+259
+
+Time for inference (us): 825
+259
+
+Time for inference (us): 701
+260
+
+Time for inference (us): 709
+260
+
+Time for inference (us): 979
+260
+
+Time for inference (us): 761
+260
+
+Time for inference (us): 914
+260
+
+Time for inference (us): 705
+261
+
+Time for inference (us): 860
+261
+
+Time for inference (us): 880
+261
+
+Time for inference (us): 901
+261
+
+Time for inference (us): 795
+262
+
+Time for inference (us): 691
+262
+
+Time for inference (us): 714
+262
+
+Time for inference (us): 745
+262
+
+Time for inference (us): 822
+262
+
+Time for inference (us): 858
+263
+
+Time for inference (us): 759
+263
+
+Time for inference (us): 852
+263
+
+Time for inference (us): 686
+263
+
+Time for inference (us): 874
+263
+
+Time for inference (us): 727
+264
+
+Time for inference (us): 751
+264
+
+Time for inference (us): 841
+264
+
+Time for inference (us): 868
+264
+
+Time for inference (us): 673
+264
+
+Time for inference (us): 718
+265
+
+Time for inference (us): 995
+265
+
+Time for inference (us): 743
+265
+
+Time for inference (us): 689
+265
+
+Time for inference (us): 716
+265
+
+Time for inference (us): 779
+266
+
+Time for inference (us): 691
+266
+
+Time for inference (us): 744
+266
+
+Time for inference (us): 801
+266
+
+Time for inference (us): 672
+266
+
+Time for inference (us): 700
+267
+
+Time for inference (us): 960
+267
+
+Time for inference (us): 686
+267
+
+Time for inference (us): 818
+267
+
+Time for inference (us): 684
+268
+
+Time for inference (us): 932
+268
+
+Time for inference (us): 803
+268
+
+Time for inference (us): 715
+268
+
+Time for inference (us): 845
+268
+
+Time for inference (us): 770
+269
+
+Time for inference (us): 702
+269
+
+Time for inference (us): 707
+269
+
+Time for inference (us): 857
+269
+
+Time for inference (us): 868
+269
+
+Time for inference (us): 904
+270
+
+Time for inference (us): 715
+270
+
+Time for inference (us): 949
+270
+
+Time for inference (us): 862
+270
+
+Time for inference (us): 822
+271
+
+Time for inference (us): 668
+271
+
+Time for inference (us): 757
+271
+
+Time for inference (us): 891
+271
+
+Time for inference (us): 856
+271
+
+Time for inference (us): 751
+271
+
+Time for inference (us): 978
+270
+
+Time for inference (us): 769
+269
+
+Time for inference (us): 701
+269
+
+Time for inference (us): 859
+268
+
+Time for inference (us): 865
+268
+
+Time for inference (us): 684
+267
+
+Time for inference (us): 692
+267
+
+Time for inference (us): 971
+266
+
+Time for inference (us): 673
+266
+
+Time for inference (us): 714
+265
+
+Time for inference (us): 1011
+264
+
+Time for inference (us): 755
+264
+
+Time for inference (us): 880
+263
+
+Time for inference (us): 1018
+262
+
+Time for inference (us): 927
+262
+
+Time for inference (us): 871
+261
+
+Time for inference (us): 866
+260
+
+Time for inference (us): 701
+260
+
+Time for inference (us): 743
+259
+
+Time for inference (us): 996
+259
+
+Time for inference (us): 747
+258
+
+Time for inference (us): 941
+257
+
+Time for inference (us): 862
+257
+
+Time for inference (us): 1031
+256
+
+Time for inference (us): 749
+256
+
+Time for inference (us): 672
+255
+
+Time for inference (us): 942
+254
+
+Time for inference (us): 707
+254
+
+Time for inference (us): 692
+253
+
+Time for inference (us): 745
+253
+
+Time for inference (us): 809
+252
+
+Time for inference (us): 886
+252
+
+Time for inference (us): 1135
+251
+
+Time for inference (us): 888
+250
+
+Time for inference (us): 836
+249
+
+Time for inference (us): 883
+249
+
+Time for inference (us): 673
+248
+
+Time for inference (us): 699
+248
+
+Time for inference (us): 988
+247
+
+Time for inference (us): 692
+247
+
+Time for inference (us): 743
+246
+
+Time for inference (us): 702
+245
+
+Time for inference (us): 939
+245
+
+Time for inference (us): 827
+244
+
+Time for inference (us): 742
+244
+
+Time for inference (us): 699
+243
+
+Time for inference (us): 751
+242
+
+Time for inference (us): 848
+242
+
+Time for inference (us): 880
+241
+
+Time for inference (us): 702
+241
+
+Time for inference (us): 713
+240
+
+Time for inference (us): 971
+239
+
+Time for inference (us): 744
+239
+
+Time for inference (us): 671
+238
+
+Time for inference (us): 760
+238
+
+Time for inference (us): 780
+237
+
+Time for inference (us): 993
+236
+
+Time for inference (us): 883
+236
+
+Time for inference (us): 910
+235
+
+Time for inference (us): 1004
+235
+
+Time for inference (us): 759
+234
+
+Time for inference (us): 701
+233
+
+Time for inference (us): 716
+233
+
+Time for inference (us): 854
+232
+
+Time for inference (us): 688
+232
+
+Time for inference (us): 693
+231
+
+Time for inference (us): 741
+231
+
+Time for inference (us): 670
+230
+
+Time for inference (us): 890
+229
+
+Time for inference (us): 986
+229
+
+Time for inference (us): 861
+228
+
+Time for inference (us): 878
+227
+
+Time for inference (us): 963
+227
+
+Time for inference (us): 669
+226
+
+Time for inference (us): 853
+226
+
+Time for inference (us): 962
+225
+
+Time for inference (us): 745
+224
+
+Time for inference (us): 670
+224
+
+Time for inference (us): 862
+223
+
+Time for inference (us): 866
+223
+
+Time for inference (us): 693
+222
+
+Time for inference (us): 743
+221
+
+Time for inference (us): 699
+221
+
+Time for inference (us): 873
+220
+
+Time for inference (us): 792
+220
+
+Time for inference (us): 979
+219
+
+Time for inference (us): 886
+218
+
+Time for inference (us): 848
+218
+
+Time for inference (us): 903
+217
+
+Time for inference (us): 762
+217
+
+Time for inference (us): 771
+216
+
+Time for inference (us): 669
+216
+
+Time for inference (us): 976
+215
+
+Time for inference (us): 797
+215
+
+Time for inference (us): 825
+214
+
+Time for inference (us): 872
+213
+
+Time for inference (us): 729
+213
+
+Time for inference (us): 772
+212
+
+Time for inference (us): 1008
+211
+
+Time for inference (us): 742
+211
+
+Time for inference (us): 672
+210
+
+Time for inference (us): 715
+210
+
+Time for inference (us): 843
+209
+
+Time for inference (us): 691
+209
+
+Time for inference (us): 720
+208
+
+Time for inference (us): 886
+208
+
+Time for inference (us): 784
+207
+
+Time for inference (us): 769
+207
+
+Time for inference (us): 702
+206
+
+Time for inference (us): 982
+205
+
+Time for inference (us): 748
+205
+
+Time for inference (us): 745
+204
+
+Time for inference (us): 699
+204
+
+Time for inference (us): 715
+203
+
+Time for inference (us): 803
+203
+
+Time for inference (us): 961
+202
+
+Time for inference (us): 903
+201
+
+Time for inference (us): 1032
+201
+
+Time for inference (us): 856
+200
+
+Time for inference (us): 762
+199
+
+Time for inference (us): 991
+199
+
+Time for inference (us): 1002
+198
+
+Time for inference (us): 736
+197
+
+Time for inference (us): 902
+197
+
+Time for inference (us): 964
+196
+
+Time for inference (us): 768
+196
+
+Time for inference (us): 857
+195
+
+Time for inference (us): 1004
+194
+
+Time for inference (us): 762
+194
+
+Time for inference (us): 674
+193
+
+Time for inference (us): 760
+192
+
+Time for inference (us): 874
+192
+
+Time for inference (us): 693
+191
+
+Time for inference (us): 743
+191
+
+Time for inference (us): 701
+190
+
+Time for inference (us): 745
+190
+
+Time for inference (us): 1001
+189
+
+Time for inference (us): 746
+188
+
+Time for inference (us): 856
+188
+
+Time for inference (us): 891
+187
+
+Time for inference (us): 1009
+187
+
+Time for inference (us): 745
+186
+
+Time for inference (us): 862
+185
+
+Time for inference (us): 752
+185
+
+Time for inference (us): 863
+184
+
+Time for inference (us): 720
+184
+
+Time for inference (us): 880
+183
+
+Time for inference (us): 699
+182
+
+Time for inference (us): 708
+182
+
+Time for inference (us): 847
+181
+
+Time for inference (us): 919
+181
+
+Time for inference (us): 827
+180
+
+Time for inference (us): 670
+180
+
+Time for inference (us): 715
+179
+
+Time for inference (us): 984
+178
+
+Time for inference (us): 893
+178
+
+Time for inference (us): 843
+177
+
+Time for inference (us): 857
+176
+
+Time for inference (us): 885
+176
+
+Time for inference (us): 702
+175
+
+Time for inference (us): 971
+175
+
+Time for inference (us): 798
+174
+
+Time for inference (us): 737
+174
+
+Time for inference (us): 790
+173
+
+Time for inference (us): 884
+172
+
+Time for inference (us): 1012
+172
+
+Time for inference (us): 751
+171
+
+Time for inference (us): 701
+170
+
+Time for inference (us): 699
+170
+
+Time for inference (us): 1031
+169
+
+Time for inference (us): 952
+169
+
+Time for inference (us): 688
+168
+
+Time for inference (us): 724
+167
+
+Time for inference (us): 1023
+167
+
+Time for inference (us): 744
+166
+
+Time for inference (us): 815
+166
+
+Time for inference (us): 858
+165
+
+Time for inference (us): 858
+165
+
+Time for inference (us): 851
+164
+
+Time for inference (us): 890
+163
+
+Time for inference (us): 673
+163
+
+Time for inference (us): 712
+162
+
+Time for inference (us): 992
+162
+
+Time for inference (us): 741
+161
+
+Time for inference (us): 885
+160
+
+Time for inference (us): 1153
+159
+
+Time for inference (us): 1056
+159
+
+Time for inference (us): 1028
+158
+
+Time for inference (us): 898
+157
+
+Time for inference (us): 723
+156
+
+Time for inference (us): 845
+155
+
+Time for inference (us): 842
+155
+
+Time for inference (us): 674
+154
+
+Time for inference (us): 719
+153
+
+Time for inference (us): 1009
+152
+
+Time for inference (us): 743
+151
+
+Time for inference (us): 727
+151
+
+Time for inference (us): 760
+150
+
+Time for inference (us): 841
+149
+
+Time for inference (us): 880
+149
+
+Time for inference (us): 903
+148
+
+Time for inference (us): 948
+147
+
+Time for inference (us): 851
+146
+
+Time for inference (us): 753
+145
+
+Time for inference (us): 701
+145
+
+Time for inference (us): 759
+144
+
+Time for inference (us): 786
+143
+
+Time for inference (us): 715
+142
+
+Time for inference (us): 692
+142
+
+Time for inference (us): 745
+141
+
+Time for inference (us): 1226
+140
+
+Time for inference (us): 858
+140
+
+Time for inference (us): 890
+139
+
+Time for inference (us): 743
+138
+
+Time for inference (us): 670
+137
+
+Time for inference (us): 783
+137
+
+Time for inference (us): 853
+136
+
+Time for inference (us): 754
+135
+
+Time for inference (us): 937
+134
+
+Time for inference (us): 1051
+133
+
+Time for inference (us): 691
+133
+
+Time for inference (us): 885
+132
+
+Time for inference (us): 902
+131
+
+Time for inference (us): 1077
+130
+
+Time for inference (us): 661
+130
+
+Time for inference (us): 953
+129
+
+Time for inference (us): 697
+128
+
+Time for inference (us): 744
+127
+
+Time for inference (us): 992
+127
+
+Time for inference (us): 785
+126
+
+Time for inference (us): 963
+125
+
+Time for inference (us): 882
+124
+
+Time for inference (us): 759
+124
+
+Time for inference (us): 771
+123
+
+Time for inference (us): 1033
+122
+
+Time for inference (us): 744
+121
+
+Time for inference (us): 863
+121
+
+Time for inference (us): 743
+120
+
+Time for inference (us): 1017
+119
+
+Time for inference (us): 729
+118
+
+Time for inference (us): 859
+118
+
+Time for inference (us): 715
+117
+
+Time for inference (us): 866
+116
+
+Time for inference (us): 693
+115
+
+Time for inference (us): 953
+115
+
+Time for inference (us): 932
+114
+
+Time for inference (us): 1003
+113
+
+Time for inference (us): 700
+112
+
+Time for inference (us): 974
+111
+
+Time for inference (us): 804
+111
+
+Time for inference (us): 791
+110
+
+Time for inference (us): 743
+109
+
+Time for inference (us): 671
+108
+
+Time for inference (us): 717
+108
+
+Time for inference (us): 1032
+107
+
+Time for inference (us): 945
+105
+
+Time for inference (us): 702
+105
+
+Time for inference (us): 873
+103
+
+Time for inference (us): 820
+102
+
+Time for inference (us): 799
+101
+
+Time for inference (us): 678
+100
+
+Time for inference (us): 895
+99
+
+Time for inference (us): 773
+98
+
+Time for inference (us): 970
+97
+
+Time for inference (us): 853
+96
+
+Time for inference (us): 715
+95
+
+Time for inference (us): 691
+94
+
+Time for inference (us): 895
+93
+
+Time for inference (us): 707
+92
+
+Time for inference (us): 1010
+91
+
+Time for inference (us): 953
+90
+
+Time for inference (us): 1039
+89
+
+Time for inference (us): 849
+88
+
+Time for inference (us): 806
+87
+
+Time for inference (us): 768
+86
+
+Time for inference (us): 893
+85
+
+Time for inference (us): 1024
+84
+
+Time for inference (us): 748
+83
+
+Time for inference (us): 795
+82
+
+Time for inference (us): 811
+81
+
+Time for inference (us): 813
+80
+
+Time for inference (us): 700
+79
+
+Time for inference (us): 699
+78
+
+Time for inference (us): 1014
+77
+
+Time for inference (us): 858
+76
+
+Time for inference (us): 706
+75
+
+Time for inference (us): 965
+74
+
+Time for inference (us): 717
+73
+
+Time for inference (us): 702
+72
+
+Time for inference (us): 873
+71
+
+Time for inference (us): 865
+70
+
+Time for inference (us): 691
+69
+
+Time for inference (us): 748
+68
+
+Time for inference (us): 698
+67
+
+Time for inference (us): 900
+66
+
+Time for inference (us): 726
+65
+
+Time for inference (us): 886
+64
+
+Time for inference (us): 891
+63
+
+Time for inference (us): 855
+62
+
+Time for inference (us): 824
+61
+
+Time for inference (us): 781
+60
+
+Time for inference (us): 752
+59
+
+Time for inference (us): 718
+58
+
+Time for inference (us): 1004
+57
+
+Time for inference (us): 949
+56
+
+Time for inference (us): 845
+54
+
+Time for inference (us): 952
+54
+
+Time for inference (us): 772
+53
+
+Time for inference (us): 822
+52
+
+Time for inference (us): 978
+51
+
+Time for inference (us): 846
+49
+
+Time for inference (us): 813
+49
+
+Time for inference (us): 876
+47
+
+Time for inference (us): 745
+47
+
+Time for inference (us): 862
+45
+
+Time for inference (us): 714
+45
+
+Time for inference (us): 868
+43
+
+Time for inference (us): 692
+43
+
+Time for inference (us): 804
+42
+
+Time for inference (us): 750
+41
+
+Time for inference (us): 694
+40
+
+Time for inference (us): 896
+39
+
+Time for inference (us): 1019
+38
+
+Time for inference (us): 691
+37
+
+Time for inference (us): 888
+36
+
+Time for inference (us): 782
+35
+
+Time for inference (us): 872
+34
+
+Time for inference (us): 719
+33
+
+Time for inference (us): 743
+32
+
+Time for inference (us): 700
+31
+
+Time for inference (us): 701
+30
+
+Time for inference (us): 707
+29
+
+Time for inference (us): 981
+28
+
+Time for inference (us): 732
+27
+
+Time for inference (us): 750
+26
+
+Time for inference (us): 759
+25
+
+Time for inference (us): 813
+24
+
+Time for inference (us): 702
+23
+
+Time for inference (us): 1033
+22
+
+Time for inference (us): 909
+21
+
+Time for inference (us): 693
+20
+
+Time for inference (us): 707
+19
+
+Time for inference (us): 937
+18
+
+Time for inference (us): 784
+17
+
+Time for inference (us): 741
+16
+
+Time for inference (us): 858
+15
+
+Time for inference (us): 705
+14
+
+Time for inference (us): 987
+13
+
+Time for inference (us): 744
+12
+
+Time for inference (us): 805
+11
+
+Time for inference (us): 795
+11
+
+Time for inference (us): 744
+10
+
+Time for inference (us): 703
+9
+
+Time for inference (us): 702
+8
+
+Time for inference (us): 669
+7
+
+Time for inference (us): 969
+6
+
+Time for inference (us): 792
+5
+
+Time for inference (us): 773
+4
+
+Time for inference (us): 735
+4
+
+Time for inference (us): 878
+3
+
+Time for inference (us): 1037
+1
+
+Time for inference (us): 1011
+0
+
+Time for inference (us): 742
+0
+
+Time for inference (us): 689
+-1
+
+Time for inference (us): 737
+-1
+
+Time for inference (us): 790
+-2
+
+Time for inference (us): 755
+-3
+
+Time for inference (us): 1054
+-4
+
+Time for inference (us): 826
+-5
+
+Time for inference (us): 905
+-6
+
+Time for inference (us): 849
+-7
+
+Time for inference (us): 817
+-8
+
+Time for inference (us): 976
+-10
+
+Time for inference (us): 1023
+-11
+
+Time for inference (us): 831
+-12
+
+Time for inference (us): 1035
+-13
+
+Time for inference (us): 891
+-14
+
+Time for inference (us): 998
+-15
+
+Time for inference (us): 825
+-16
+
+Time for inference (us): 1021
+-17
+
+Time for inference (us): 1042
+-19
+
+Time for inference (us): 1040
+-20
+
+Time for inference (us): 824
+-21
+
+Time for inference (us): 1160
+-22
+
+Time for inference (us): 875
+-23
+
+Time for inference (us): 980
+-24
+
+Time for inference (us): 821
+-25
+
+Time for inference (us): 963
+-26
+
+Time for inference (us): 998
+-27
+
+Time for inference (us): 1117
+-28
+
+Time for inference (us): 780
+-29
+
+Time for inference (us): 1036
+-31
+
+Time for inference (us): 1057
+-32
+
+Time for inference (us): 1035
+-33
+
+Time for inference (us): 1009
+-34
+
+Time for inference (us): 855
+-35
+
+Time for inference (us): 950
+-36
+
+Time for inference (us): 819
+-37
+
+Time for inference (us): 895
+-38
+
+Time for inference (us): 881
+-39
+
+Time for inference (us): 979
+-40
+
+Time for inference (us): 1011
+-41
+
+Time for inference (us): 827
+-42
+
+Time for inference (us): 758
+-43
+
+Time for inference (us): 1033
+-44
+
+Time for inference (us): 978
+-46
+
+Time for inference (us): 928
+-47
+
+Time for inference (us): 866
+-48
+
+Time for inference (us): 1014
+-49
+
+Time for inference (us): 1011
+-50
+
+Time for inference (us): 991
+-51
+
+Time for inference (us): 848
+-52
+
+Time for inference (us): 861
+-53
+
+Time for inference (us): 838
+-55
+
+Time for inference (us): 814
+-56
+
+Time for inference (us): 846
+-57
+
+Time for inference (us): 809
+-58
+
+Time for inference (us): 1022
+-59
+
+Time for inference (us): 920
+-60
+
+Time for inference (us): 839
+-61
+
+Time for inference (us): 1017
+-62
+
+Time for inference (us): 1001
+-63
+
+Time for inference (us): 921
+-64
+
+Time for inference (us): 876
+-64
+
+Time for inference (us): 786
+-65
+
+Time for inference (us): 787
+-66
+
+Time for inference (us): 788
+-67
+
+Time for inference (us): 1052
+-68
+
+Time for inference (us): 1058
+-69
+
+Time for inference (us): 829
+-70
+
+Time for inference (us): 823
+-72
+
+Time for inference (us): 1025
+-72
+
+Time for inference (us): 911
+-74
+
+Time for inference (us): 846
+-74
+
+Time for inference (us): 1015
+-76
+
+Time for inference (us): 959
+-77
+
+Time for inference (us): 784
+-78
+
+Time for inference (us): 863
+-78
+
+Time for inference (us): 978
+-80
+
+Time for inference (us): 1012
+-81
+
+Time for inference (us): 825
+-82
+
+Time for inference (us): 844
+-83
+
+Time for inference (us): 940
+-84
+
+Time for inference (us): 1086
+-85
+
+Time for inference (us): 981
+-86
+
+Time for inference (us): 833
+-87
+
+Time for inference (us): 991
+-88
+
+Time for inference (us): 1016
+-90
+
+Time for inference (us): 1005
+-91
+
+Time for inference (us): 884
+-92
+
+Time for inference (us): 847
+-93
+
+Time for inference (us): 816
+-94
+
+Time for inference (us): 1071
+-95
+
+Time for inference (us): 726
+-96
+
+Time for inference (us): 847
+-97
+
+Time for inference (us): 973
+-98
+
+Time for inference (us): 1087
+-99
+
+Time for inference (us): 1008
+-100
+
+Time for inference (us): 1013
+-101
+
+Time for inference (us): 819
+-102
+
+Time for inference (us): 973
+-103
+
+Time for inference (us): 861
+-104
+
+Time for inference (us): 1022
+-105
+
+Time for inference (us): 927
+-106
+
+Time for inference (us): 1060
+-107
+
+Time for inference (us): 869
+-108
+
+Time for inference (us): 1008
+-110
+
+Time for inference (us): 1003
+-111
+
+Time for inference (us): 833
+-112
+
+Time for inference (us): 1016
+-113
+
+Time for inference (us): 1005
+-114
+
+Time for inference (us): 987
+-115
+
+Time for inference (us): 814
+-116
+
+Time for inference (us): 994
+-117
+
+Time for inference (us): 1010
+-118
+
+Time for inference (us): 1098
+-120
+
+Time for inference (us): 1012
+-121
+
+Time for inference (us): 877
+-122
+
+Time for inference (us): 823
+-123
+
+Time for inference (us): 1014
+-124
+
+Time for inference (us): 1002
+-125
+
+Time for inference (us): 852
+-126
+
+Time for inference (us): 880
+-127
+
+Time for inference (us): 1050
+-129
+
+Time for inference (us): 811
+-130
+
+Time for inference (us): 1061
+-131
+
+Time for inference (us): 876
+-132
+
+Time for inference (us): 962
+-133
+
+Time for inference (us): 1012
+-134
+
+Time for inference (us): 918
+-135
+
+Time for inference (us): 817
+-136
+
+Time for inference (us): 979
+-137
+
+Time for inference (us): 1008
+-138
+
+Time for inference (us): 817
+-139
+
+Time for inference (us): 1015
+-140
+
+Time for inference (us): 1003
+-142
+
+Time for inference (us): 854
+-143
+
+Time for inference (us): 855
+-144
+
+Time for inference (us): 1028
+-145
+
+Time for inference (us): 819
+-146
+
+Time for inference (us): 853
+-147
+
+Time for inference (us): 829
+-148
+
+Time for inference (us): 983
+-149
+
+Time for inference (us): 821
+-150
+
+Time for inference (us): 894
+-151
+
+Time for inference (us): 973
+-152
+
+Time for inference (us): 804
+-153
+
+Time for inference (us): 1051
+-154
+
+Time for inference (us): 907
+-155
+
+Time for inference (us): 1060
+-156
+
+Time for inference (us): 857
+-157
+
+Time for inference (us): 1050
+-158
+
+Time for inference (us): 929
+-159
+
+Time for inference (us): 1057
+-160
+
+Time for inference (us): 858
+-161
+
+Time for inference (us): 1056
+-162
+
+Time for inference (us): 821
+-163
+
+Time for inference (us): 1001
+-164
+
+Time for inference (us): 977
+-165
+
+Time for inference (us): 821
+-166
+
+Time for inference (us): 788
+-167
+
+Time for inference (us): 987
+-168
+
+Time for inference (us): 1006
+-169
+
+Time for inference (us): 922
+-170
+
+Time for inference (us): 836
+-171
+
+Time for inference (us): 857
+-172
+
+Time for inference (us): 834
+-173
+
+Time for inference (us): 1005
+-174
+
+Time for inference (us): 901
+-175
+
+Time for inference (us): 1026
+-176
+
+Time for inference (us): 1010
+-178
+
+Time for inference (us): 1011
+-179
+
+Time for inference (us): 945
+-180
+
+Time for inference (us): 785
+-181
+
+Time for inference (us): 1031
+-182
+
+Time for inference (us): 917
+-183
+
+Time for inference (us): 943
+-184
+
+Time for inference (us): 1005
+-185
+
+Time for inference (us): 1013
+-186
+
+Time for inference (us): 921
+-187
+
+Time for inference (us): 831
+-188
+
+Time for inference (us): 1012
+-190
+
+Time for inference (us): 1121
+-191
+
+Time for inference (us): 798
+-192
+
+Time for inference (us): 1016
+-193
+
+Time for inference (us): 905
+-194
+
+Time for inference (us): 1053
+-195
+
+Time for inference (us): 854
+-196
+
+Time for inference (us): 814
+-197
+
+Time for inference (us): 1068
+-198
+
+Time for inference (us): 861
+-199
+
+Time for inference (us): 1022
+-200
+
+Time for inference (us): 914
+-201
+
+Time for inference (us): 848
+-202
+
+Time for inference (us): 841
+-203
+
+Time for inference (us): 880
+-204
+
+Time for inference (us): 874
+-205
+
+Time for inference (us): 808
+-206
+
+Time for inference (us): 757
+-207
+
+Time for inference (us): 1019
+-208
+
+Time for inference (us): 1033
+-209
+
+Time for inference (us): 1008
+-211
+
+Time for inference (us): 967
+-212
+
+Time for inference (us): 831
+-213
+
+Time for inference (us): 850
+-214
+
+Time for inference (us): 1015
+-215
+
+Time for inference (us): 980
+-216
+
+Time for inference (us): 1107
+-217
+
+Time for inference (us): 1012
+-218
+
+Time for inference (us): 1011
+-220
+
+Time for inference (us): 799
+-221
+
+Time for inference (us): 1063
+-222
+
+Time for inference (us): 901
+-222
+
+Time for inference (us): 1027
+-223
+
+Time for inference (us): 741
+-223
+
+Time for inference (us): 742
+-223
+
+Time for inference (us): 834
+-223
+
+Time for inference (us): 1001
+-224
+
+Time for inference (us): 1079
+-224
+
+Time for inference (us): 1010
+-224
+
+Time for inference (us): 976
+-224
+
+Time for inference (us): 1018
+-224
+
+Time for inference (us): 1019
+-224
+
+Time for inference (us): 810
+-225
+
+Time for inference (us): 1035
+-225
+
+Time for inference (us): 828
+-225
+
+Time for inference (us): 1014
+-225
+
+Time for inference (us): 1015
+-225
+
+Time for inference (us): 816
+-225
+
+Time for inference (us): 1017
+-225
+
+Time for inference (us): 955
+-226
+
+Time for inference (us): 899
+-226
+
+Time for inference (us): 868
+-226
+
+Time for inference (us): 758
+-226
+
+Time for inference (us): 783
+-226
+
+Time for inference (us): 788
+-226
+
+Time for inference (us): 789
+-226
+
+Time for inference (us): 757
+-226
+
+Time for inference (us): 788
+-226
+
+Time for inference (us): 991
+-227
+
+Time for inference (us): 820
+-227
+
+Time for inference (us): 820
+-227
+
+Time for inference (us): 1003
+-227
+
+Time for inference (us): 1007
+-227
+
+Time for inference (us): 1073
+-227
+
+Time for inference (us): 1007
+-227
+
+Time for inference (us): 1017
+-228
+
+Time for inference (us): 1001
+-228
+
+Time for inference (us): 890
+-228
+
+Time for inference (us): 869
+-228
+
+Time for inference (us): 890
+-228
+
+Time for inference (us): 993
+-228
+
+Time for inference (us): 1043
+-228
+
+Time for inference (us): 1024
+-229
+
+Time for inference (us): 1026
+-229
+
+Time for inference (us): 1007
+-229
+
+Time for inference (us): 989
+-229
+
+Time for inference (us): 1000
+-229
+
+Time for inference (us): 859
+-229
+
+Time for inference (us): 1053
+-229
+
+Time for inference (us): 1064
+-230
+
+Time for inference (us): 1011
+-230
+
+Time for inference (us): 921
+-230
+
+Time for inference (us): 1000
+-230
+
+Time for inference (us): 845
+-230
+
+Time for inference (us): 800
+-230
+
+Time for inference (us): 1056
+-231
+
+Time for inference (us): 936
+-231
+
+Time for inference (us): 1016
+-231
+
+Time for inference (us): 1010
+-231
+
+Time for inference (us): 1018
+-231
+
+Time for inference (us): 983
+-231
+
+Time for inference (us): 931
+-231
+
+Time for inference (us): 991
+-232
+
+Time for inference (us): 1014
+-232
+
+Time for inference (us): 1021
+-232
+
+Time for inference (us): 1011
+-232
+
+Time for inference (us): 1007
+-232
+
+Time for inference (us): 1016
+-232
+
+Time for inference (us): 1083
+-232
+
+Time for inference (us): 1001
+-233
+
+Time for inference (us): 1004
+-233
+
+Time for inference (us): 1108
+-233
+
+Time for inference (us): 782
+-233
+
+Time for inference (us): 755
+-233
+
+Time for inference (us): 1010
+-233
+
+Time for inference (us): 932
+-233
+
+Time for inference (us): 813
+-233
+
+Time for inference (us): 1014
+-234
+
+Time for inference (us): 886
+-234
+
+Time for inference (us): 998
+-234
+
+Time for inference (us): 984
+-234
+
+Time for inference (us): 1004
+-234
+
+Time for inference (us): 997
+-234
+
+Time for inference (us): 1059
+-235
+
+Time for inference (us): 848
+-235
+
+Time for inference (us): 827
+-235
+
+Time for inference (us): 784
+-235
+
+Time for inference (us): 1025
+-235
+
+Time for inference (us): 839
+-235
+
+Time for inference (us): 990
+-235
+
+Time for inference (us): 1016
+-236
+
+Time for inference (us): 1012
+-236
+
+Time for inference (us): 1101
+-236
+
+Time for inference (us): 1067
+-236
+
+Time for inference (us): 1012
+-236
+
+Time for inference (us): 1076
+-236
+
+Time for inference (us): 1022
+-236
+
+Time for inference (us): 984
+-237
+
+Time for inference (us): 1067
+-237
+
+Time for inference (us): 855
+-237
+
+Time for inference (us): 792
+-237
+
+Time for inference (us): 865
+-237
+
+Time for inference (us): 810
+-237
+
+Time for inference (us): 1020
+-237
+
+Time for inference (us): 826
+-237
+
+Time for inference (us): 1010
+-238
+
+Time for inference (us): 1012
+-238
+
+Time for inference (us): 926
+-238
+
+Time for inference (us): 1073
+-238
+
+Time for inference (us): 811
+-238
+
+Time for inference (us): 1023
+-238
+
+Time for inference (us): 827
+-238
+
+Time for inference (us): 788
+-239
+
+Time for inference (us): 788
+-239
+
+Time for inference (us): 1057
+-239
+
+Time for inference (us): 879
+-239
+
+Time for inference (us): 949
+-239
+
+Time for inference (us): 805
+-239
+
+Time for inference (us): 1012
+-239
+
+Time for inference (us): 1008
+-240
+
+Time for inference (us): 957
+-240
+
+Time for inference (us): 839
+-240
+
+Time for inference (us): 825
+-240
+
+Time for inference (us): 1058
+-240
+
+Time for inference (us): 1137
+-240
+
+Time for inference (us): 810
+-240
+
+Time for inference (us): 999
+-241
+
+Time for inference (us): 839
+-241
+
+Time for inference (us): 1003
+-241
+
+Time for inference (us): 916
+-241
+
+Time for inference (us): 1010
+-241
+
+Time for inference (us): 1007
+-241
+
+Time for inference (us): 1013
+-241
+
+Time for inference (us): 914
+-242
+
+Time for inference (us): 1013
+-242
+
+Time for inference (us): 888
+-242
+
+Time for inference (us): 865
+-242
+
+Time for inference (us): 1052
+-242
+
+Time for inference (us): 846
+-242
+
+Time for inference (us): 1055
+-242
+
+Time for inference (us): 833
+-243
+
+Time for inference (us): 795
+-243
+
+Time for inference (us): 986
+-243
+
+Time for inference (us): 838
+-243
+
+Time for inference (us): 1008
+-243
+
+Time for inference (us): 1009
+-243
+
+Time for inference (us): 1058
+-243
+
+Time for inference (us): 968
+-244
+
+Time for inference (us): 1058
+-244
+
+Time for inference (us): 816
+-244
+
+Time for inference (us): 756
+-244
+
+Time for inference (us): 896
+-244
+
+Time for inference (us): 779
+-244
+
+Time for inference (us): 829
+-244
+
+Time for inference (us): 814
+-244
+
+Time for inference (us): 1012
+-245
+
+Time for inference (us): 840
+-245
+
+Time for inference (us): 866
+-245
+
+Time for inference (us): 811
+-245
+
+Time for inference (us): 1018
+-245
+
+Time for inference (us): 929
+-245
+
+Time for inference (us): 1065
+-245
+
+Time for inference (us): 826
+-246
+
+Time for inference (us): 875
+-246
+
+Time for inference (us): 1001
+-246
+
+Time for inference (us): 1044
+-246
+
+Time for inference (us): 917
+-246
+
+Time for inference (us): 910
+-246
+
+Time for inference (us): 1048
+-246
+
+Time for inference (us): 905
+-246
+
+Time for inference (us): 1013
+-247
+
+Time for inference (us): 916
+-247
+
+Time for inference (us): 857
+-247
+
+Time for inference (us): 834
+-247
+
+Time for inference (us): 962
+-247
+
+Time for inference (us): 1012
+-247
+
+Time for inference (us): 1165
+-248
+
+Time for inference (us): 811
+-248
+
+Time for inference (us): 997
+-248
+
+Time for inference (us): 844
+-248
+
+Time for inference (us): 782
+-248
+
+Time for inference (us): 1010
+-248
+
+Time for inference (us): 920
+-248
+
+Time for inference (us): 756
+-248
+
+Time for inference (us): 1024
+-249
+
+Time for inference (us): 982
+-249
+
+Time for inference (us): 828
+-249
+
+Time for inference (us): 974
+-249
+
+Time for inference (us): 1013
+-249
+
+Time for inference (us): 1011
+-249
+
+Time for inference (us): 860
+-250
+
+Time for inference (us): 1013
+-250
+
+Time for inference (us): 825
+-250
+
+Time for inference (us): 1035
+-250
+
+Time for inference (us): 823
+-250
+
+Time for inference (us): 1116
+-250
+
+Time for inference (us): 799
+-250
+
+Time for inference (us): 1018
+-251
+
+Time for inference (us): 819
+-251
+
+Time for inference (us): 839
+-251
+
+Time for inference (us): 860
+-251
+
+Time for inference (us): 990
+-251
+
+Time for inference (us): 921
+-251
+
+Time for inference (us): 783
+-251
+
+Time for inference (us): 802
+-251
+
+Time for inference (us): 880
+-252
+
+Time for inference (us): 869
+-252
+
+Time for inference (us): 836
+-252
+
+Time for inference (us): 1025
+-252
+
+Time for inference (us): 823
+-252
+
+Time for inference (us): 1022
+-252
+
+Time for inference (us): 1006
+-252
+
+Time for inference (us): 1120
+-253
+
+Time for inference (us): 826
+-253
+
+Time for inference (us): 1012
+-253
+
+Time for inference (us): 881
+-253
+
+Time for inference (us): 976
+-253
+
+Time for inference (us): 838
+-253
+
+Time for inference (us): 972
+-253
+
+Time for inference (us): 924
+-253
+
+Time for inference (us): 855
+-254
+
+Time for inference (us): 766
+-254
+
+Time for inference (us): 1011
+-254
+
+Time for inference (us): 915
+-254
+
+Time for inference (us): 873
+-254
+
+Time for inference (us): 1015
+-254
+
+Time for inference (us): 1013
+-254
+
+Time for inference (us): 818
+-255
+
+Time for inference (us): 1005
+-255
+
+Time for inference (us): 1005
+-255
+
+Time for inference (us): 1075
+-255
+
+Time for inference (us): 1051
+-255
+
+Time for inference (us): 1012
+-255
+
+Time for inference (us): 790
+-255
+
+Time for inference (us): 1003
+-256
+
+Time for inference (us): 1010
+-256
+
+Time for inference (us): 823
+-256
+
+Time for inference (us): 1021
+-256
+
+Time for inference (us): 964
+-256
+
+Time for inference (us): 970
+-256
+
+Time for inference (us): 983
+-256
+
+Time for inference (us): 842
+-257
+
+Time for inference (us): 839
+-257
+
+Time for inference (us): 995
+-257
+
+Time for inference (us): 845
+-257
+
+Time for inference (us): 852
+-257
+
+Time for inference (us): 849
+-256
+
+Time for inference (us): 861
+-255
+
+Time for inference (us): 838
+-254
+
+Time for inference (us): 964
+-254
+
+Time for inference (us): 1013
+-253
+
+Time for inference (us): 849
+-252
+
+Time for inference (us): 1009
+-251
+
+Time for inference (us): 1020
+-250
+
+Time for inference (us): 844
+-250
+
+Time for inference (us): 870
+-249
+
+Time for inference (us): 1009
+-248
+
+Time for inference (us): 1017
+-247
+
+Time for inference (us): 924
+-247
+
+Time for inference (us): 847
+-246
+
+Time for inference (us): 1014
+-245
+
+Time for inference (us): 1001
+-244
+
+Time for inference (us): 891
+-244
+
+Time for inference (us): 876
+-243
+
+Time for inference (us): 973
+-242
+
+Time for inference (us): 860
+-241
+
+Time for inference (us): 1014
+-241
+
+Time for inference (us): 845
+-240
+
+Time for inference (us): 1029
+-239
+
+Time for inference (us): 1010
+-238
+
+Time for inference (us): 827
+-237
+
+Time for inference (us): 952
+-237
+
+Time for inference (us): 1006
+-236
+
+Time for inference (us): 849
+-235
+
+Time for inference (us): 843
+-234
+
+Time for inference (us): 1008
+-233
+
+Time for inference (us): 952
+-232
+
+Time for inference (us): 1030
+-232
+
+Time for inference (us): 1002
+-231
+
+Time for inference (us): 1008
+-230
+
+Time for inference (us): 955
+-229
+
+Time for inference (us): 818
+-228
+
+Time for inference (us): 868
+-228
+
+Time for inference (us): 836
+-227
+
+Time for inference (us): 1055
+-226
+
+Time for inference (us): 917
+-225
+
+Time for inference (us): 799
+-225
+
+Time for inference (us): 1015
+-224
+
+Time for inference (us): 912
+-223
+
+Time for inference (us): 834
+-222
+
+Time for inference (us): 1010
+-221
+
+Time for inference (us): 1009
+-221
+
+Time for inference (us): 1011
+-220
+
+Time for inference (us): 842
+-219
+
+Time for inference (us): 1237
+-218
+
+Time for inference (us): 1093
+-217
+
+Time for inference (us): 984
+-216
+
+Time for inference (us): 819
+-215
+
+Time for inference (us): 819
+-215
+
+Time for inference (us): 840
+-214
+
+Time for inference (us): 729
+-213
+
+Time for inference (us): 838
+-212
+
+Time for inference (us): 788
+-212
+
+Time for inference (us): 1046
+-211
+
+Time for inference (us): 1010
+-210
+
+Time for inference (us): 825
+-209
+
+Time for inference (us): 838
+-208
+
+Time for inference (us): 1019
+-207
+
+Time for inference (us): 1040
+-207
+
+Time for inference (us): 900
+-206
+
+Time for inference (us): 834
+-205
+
+Time for inference (us): 848
+-204
+
+Time for inference (us): 815
+-204
+
+Time for inference (us): 782
+-203
+
+Time for inference (us): 790
+-202
+
+Time for inference (us): 1014
+-202
+
+Time for inference (us): 1000
+-201
+
+Time for inference (us): 930
+-200
+
+Time for inference (us): 879
+-199
+
+Time for inference (us): 1011
+-199
+
+Time for inference (us): 1015
+-198
+
+Time for inference (us): 1007
+-197
+
+Time for inference (us): 986
+-196
+
+Time for inference (us): 826
+-195
+
+Time for inference (us): 1059
+-194
+
+Time for inference (us): 928
+-194
+
+Time for inference (us): 838
+-193
+
+Time for inference (us): 759
+-192
+
+Time for inference (us): 756
+-192
+
+Time for inference (us): 783
+-191
+
+Time for inference (us): 1012
+-190
+
+Time for inference (us): 989
+-189
+
+Time for inference (us): 887
+-189
+
+Time for inference (us): 947
+-188
+
+Time for inference (us): 1005
+-187
+
+Time for inference (us): 1024
+-186
+
+Time for inference (us): 993
+-185
+
+Time for inference (us): 1009
+-184
+
+Time for inference (us): 904
+-183
+
+Time for inference (us): 846
+-183
+
+Time for inference (us): 1024
+-182
+
+Time for inference (us): 1002
+-181
+
+Time for inference (us): 848
+-180
+
+Time for inference (us): 963
+-179
+
+Time for inference (us): 815
+-178
+
+Time for inference (us): 1008
+-178
+
+Time for inference (us): 970
+-177
+
+Time for inference (us): 1041
+-176
+
+Time for inference (us): 864
+-175
+
+Time for inference (us): 1086
+-174
+
+Time for inference (us): 820
+-174
+
+Time for inference (us): 1011
+-173
+
+Time for inference (us): 998
+-172
+
+Time for inference (us): 837
+-171
+
+Time for inference (us): 894
+-171
+
+Time for inference (us): 826
+-170
+
+Time for inference (us): 826
+-169
+
+Time for inference (us): 834
+-168
+
+Time for inference (us): 827
+-168
+
+Time for inference (us): 1026
+-167
+
+Time for inference (us): 1021
+-166
+
+Time for inference (us): 938
+-165
+
+Time for inference (us): 968
+-164
+
+Time for inference (us): 1014
+-163
+
+Time for inference (us): 825
+-163
+
+Time for inference (us): 1012
+-162
+
+Time for inference (us): 810
+-161
+
+Time for inference (us): 886
+-160
+
+Time for inference (us): 888
+-160
+
+Time for inference (us): 856
+-159
+
+Time for inference (us): 1064
+-158
+
+Time for inference (us): 821
+-157
+
+Time for inference (us): 1017
+-156
+
+Time for inference (us): 1008
+-156
+
+Time for inference (us): 918
+-155
+
+Time for inference (us): 859
+-154
+
+Time for inference (us): 1049
+-153
+
+Time for inference (us): 988
+-153
+
+Time for inference (us): 1135
+-152
+
+Time for inference (us): 811
+-151
+
+Time for inference (us): 1022
+-150
+
+Time for inference (us): 821
+-149
+
+Time for inference (us): 854
+-149
+
+Time for inference (us): 798
+-148
+
+Time for inference (us): 1003
+-147
+
+Time for inference (us): 1770
+-146
+
+Time for inference (us): 1007
+-145
+
+Time for inference (us): 1141
+-144
+
+Time for inference (us): 897
+-143
+
+Time for inference (us): 830
+-142
+
+Time for inference (us): 848
+-142
+
+Time for inference (us): 841
+-141
+
+Time for inference (us): 972
+-140
+
+Time for inference (us): 850
+-139
+
+Time for inference (us): 826
+-138
+
+Time for inference (us): 1045
+-138
+
+Time for inference (us): 986
+-137
+
+Time for inference (us): 885
+-136
+
+Time for inference (us): 793
+-135
+
+Time for inference (us): 1023
+-135
+
+Time for inference (us): 902
+-134
+
+Time for inference (us): 782
+-133
+
+Time for inference (us): 801
+-133
+
+Time for inference (us): 782
+-132
+
+Time for inference (us): 789
+-131
+
+Time for inference (us): 785
+-131
+
+Time for inference (us): 810
+-130
+
+Time for inference (us): 1024
+-129
+
+Time for inference (us): 841
+-128
+
+Time for inference (us): 909
+-128
+
+Time for inference (us): 1020
+-127
+
+Time for inference (us): 850
+-126
+
+Time for inference (us): 983
+-125
+
+Time for inference (us): 832
+-124
+
+Time for inference (us): 856
+-123
+
+Time for inference (us): 848
+-123
+
+Time for inference (us): 1012
+-122
+
+Time for inference (us): 862
+-121
+
+Time for inference (us): 835
+-120
+
+Time for inference (us): 1013
+-120
+
+Time for inference (us): 978
+-119
+
+Time for inference (us): 915
+-118
+
+Time for inference (us): 876
+-117
+
+Time for inference (us): 861
+-117
+
+Time for inference (us): 812
+-116
+
+Time for inference (us): 996
+-115
+
+Time for inference (us): 826
+-114
+
+Time for inference (us): 838
+-114
+
+Time for inference (us): 898
+-113
+
+Time for inference (us): 1053
+-112
+
+Time for inference (us): 1027
+-111
+
+Time for inference (us): 827
+-110
+
+Time for inference (us): 843
+-110
+
+Time for inference (us): 848
+-109
+
+Time for inference (us): 980
+-108
+
+Time for inference (us): 979
+-107
+
+Time for inference (us): 824
+-106
+
+Time for inference (us): 1010
+-106
+
+Time for inference (us): 846
+-105
+
+Time for inference (us): 818
+-104
+
+Time for inference (us): 1166
+-103
+
+Time for inference (us): 980
+-102
+
+Time for inference (us): 915
+-101
+
+Time for inference (us): 827
+-101
+
+Time for inference (us): 1031
+-100
+
+Time for inference (us): 812
+-99
+
+Time for inference (us): 1030
+-98
+
+Time for inference (us): 906
+-97
+
+Time for inference (us): 857
+-97
+
+Time for inference (us): 821
+-96
+
+Time for inference (us): 982
+-95
+
+Time for inference (us): 1028
+-94
+
+Time for inference (us): 1033
+-93
+
+Time for inference (us): 787
+-93
+
+Time for inference (us): 1155
+-92
+
+Time for inference (us): 969
+-91
+
+Time for inference (us): 810
+-90
+
+Time for inference (us): 884
+-89
+
+Time for inference (us): 900
+-88
+
+Time for inference (us): 1013
+-87
+
+Time for inference (us): 882
+-87
+
+Time for inference (us): 801
+-86
+
+Time for inference (us): 998
+-85
+
+Time for inference (us): 999
+-84
+
+Time for inference (us): 920
+-84
+
+Time for inference (us): 970
+-83
+
+Time for inference (us): 826
+-82
+
+Time for inference (us): 896
+-81
+
+Time for inference (us): 829
+-80
+
+Time for inference (us): 795
+-80
+
+Time for inference (us): 1009
+-79
+
+Time for inference (us): 789
+-78
+
+Time for inference (us): 869
+-77
+
+Time for inference (us): 934
+-76
+
+Time for inference (us): 785
+-76
+
+Time for inference (us): 968
+-75
+
+Time for inference (us): 977
+-74
+
+Time for inference (us): 931
+-73
+
+Time for inference (us): 856
+-73
+
+Time for inference (us): 932
+-72
+
+Time for inference (us): 989
+-71
+
+Time for inference (us): 895
+-70
+
+Time for inference (us): 840
+-69
+
+Time for inference (us): 1074
+-68
+
+Time for inference (us): 960
+-68
+
+Time for inference (us): 1009
+-67
+
+Time for inference (us): 1236
+-66
+
+Time for inference (us): 997
+-65
+
+Time for inference (us): 1012
+-64
+
+Time for inference (us): 1046
+-63
+
+Time for inference (us): 1674
+-62
+
+Time for inference (us): 828
+-61
+
+Time for inference (us): 974
+-61
+
+Time for inference (us): 799
+-60
+
+Time for inference (us): 1136
+-59
+
+Time for inference (us): 853
+-58
+
+Time for inference (us): 886
+-57
+
+Time for inference (us): 965
+-56
+
+Time for inference (us): 1024
+-56
+
+Time for inference (us): 1025
+-55
+
+Time for inference (us): 820
+-54
+
+Time for inference (us): 999
+-53
+
+Time for inference (us): 985
+-52
+
+Time for inference (us): 940
+-51
+
+Time for inference (us): 796
+-51
+
+Time for inference (us): 1080
+-50
+
+Time for inference (us): 822
+-49
+
+Time for inference (us): 1012
+-48
+
+Time for inference (us): 984
+-47
+
+Time for inference (us): 801
+-47
+
+Time for inference (us): 1040
+-46
+
+Time for inference (us): 1167
+-45
+
+Time for inference (us): 1015
+-44
+
+Time for inference (us): 823
+-43
+
+Time for inference (us): 756
+-42
+
+Time for inference (us): 1056
+-42
+
+Time for inference (us): 1014
+-41
+
+Time for inference (us): 954
+-40
+
+Time for inference (us): 829
+-39
+
+Time for inference (us): 1016
+-38
+
+Time for inference (us): 809
+-38
+
+Time for inference (us): 1262
+-37
+
+Time for inference (us): 1310
+-36
+
+Time for inference (us): 998
+-35
+
+Time for inference (us): 995
+-34
+
+Time for inference (us): 1031
+-33
+
+Time for inference (us): 818
+-32
+
+Time for inference (us): 800
+-32
+
+Time for inference (us): 1503
+-30
+
+Time for inference (us): 982
+-30
+
+Time for inference (us): 973
+-29
+
+Time for inference (us): 1002
+-28
+
+Time for inference (us): 995
+-27
+
+Time for inference (us): 1000
+-26
+
+Time for inference (us): 980
+-25
+
+Time for inference (us): 1005
+-25
+
+Time for inference (us): 1263
+-24
+
+Time for inference (us): 899
+-23
+
+Time for inference (us): 896
+-22
+
+Time for inference (us): 985
+-21
+
+Time for inference (us): 1023
+-20
+
+Time for inference (us): 1026
+-20
+
+Time for inference (us): 1013
+-19
+
+Time for inference (us): 1011
+-18
+
+Time for inference (us): 972
+5
+
+Time for inference (us): 1013
+6
+
+Time for inference (us): 969
+7
+
+Time for inference (us): 741
+7
+
+Time for inference (us): 849
+8
+
+Time for inference (us): 751
+9
+
+Time for inference (us): 833
+10
+
+Time for inference (us): 743
+11
+
+Time for inference (us): 812
+12
+
+Time for inference (us): 859
+13
+
+Time for inference (us): 829
+14
+
+Time for inference (us): 748
+15
+
+Time for inference (us): 859
+16
+
+Time for inference (us): 707
+16
+
+Time for inference (us): 1021
+18
+
+Time for inference (us): 865
+18
+
+Time for inference (us): 742
+19
+
+Time for inference (us): 855
+20
+
+Time for inference (us): 691
+21
+
+Time for inference (us): 716
+22
+
+Time for inference (us): 757
+22
+
+Time for inference (us): 751
+23
+
+Time for inference (us): 764
+24
+
+Time for inference (us): 890
+25
+
+Time for inference (us): 835
+26
+
+Time for inference (us): 991
+27
+
+Time for inference (us): 684
+28
+
+Time for inference (us): 756
+28
+
+Time for inference (us): 912
+29
+
+Time for inference (us): 869
+30
+
+Time for inference (us): 715
+31
+
+Time for inference (us): 685
+32
+
+Time for inference (us): 742
+33
+
+Time for inference (us): 932
+34
+
+Time for inference (us): 819
+34
+
+Time for inference (us): 882
+35
+
+Time for inference (us): 973
+36
+
+Time for inference (us): 752
+37
+
+Time for inference (us): 933
+38
+
+Time for inference (us): 888
+39
+
+Time for inference (us): 679
+40
+
+Time for inference (us): 779
+40
+
+Time for inference (us): 744
+41
+
+Time for inference (us): 797
+42
+
+Time for inference (us): 857
+43
+
+Time for inference (us): 750
+44
+
+Time for inference (us): 823
+45
+
+Time for inference (us): 989
+46
+
+Time for inference (us): 1014
+47
+
+Time for inference (us): 974
+48
+
+Time for inference (us): 772
+49
+
+Time for inference (us): 1011
+50
+
+Time for inference (us): 921
+51
+
+Time for inference (us): 868
+52
+
+Time for inference (us): 883
+53
+
+Time for inference (us): 870
+53
+
+Time for inference (us): 867
+54
+
+Time for inference (us): 885
+55
+
+Time for inference (us): 1036
+56
+
+Time for inference (us): 760
+57
+
+Time for inference (us): 768
+58
+
+Time for inference (us): 700
+59
+
+Time for inference (us): 939
+60
+
+Time for inference (us): 691
+60
+
+Time for inference (us): 723
+61
+
+Time for inference (us): 744
+62
+
+Time for inference (us): 895
+63
+
+Time for inference (us): 921
+64
+
+Time for inference (us): 778
+65
+
+Time for inference (us): 732
+66
+
+Time for inference (us): 746
+66
+
+Time for inference (us): 861
+67
+
+Time for inference (us): 718
+68
+
+Time for inference (us): 842
+69
+
+Time for inference (us): 692
+70
+
+Time for inference (us): 741
+71
+
+Time for inference (us): 849
+72
+
+Time for inference (us): 779
+72
+
+Time for inference (us): 949
+73
+
+Time for inference (us): 693
+74
+
+Time for inference (us): 904
+75
+
+Time for inference (us): 1012
+76
+
+Time for inference (us): 933
+77
+
+Time for inference (us): 673
+78
+
+Time for inference (us): 891
+79
+
+Time for inference (us): 791
+80
+
+Time for inference (us): 944
+81
+
+Time for inference (us): 752
+81
+
+Time for inference (us): 737
+82
+
+Time for inference (us): 745
+83
+
+Time for inference (us): 669
+84
+
+Time for inference (us): 919
+85
+
+Time for inference (us): 966
+86
+
+Time for inference (us): 809
+86
+
+Time for inference (us): 769
+87
+
+Time for inference (us): 893
+88
+
+Time for inference (us): 795
+89
+
+Time for inference (us): 880
+90
+
+Time for inference (us): 896
+91
+
+Time for inference (us): 1339
+92
+
+Time for inference (us): 718
+93
+
+Time for inference (us): 775
+94
+
+Time for inference (us): 882
+95
+
+Time for inference (us): 760
+96
+
+Time for inference (us): 900
+97
+
+Time for inference (us): 707
+98
+
+Time for inference (us): 1003
+99
+
+Time for inference (us): 746
+100
+
+Time for inference (us): 655
+100
+
+Time for inference (us): 737
+101
+
+Time for inference (us): 972
+102
+
+Time for inference (us): 797
+103
+
+Time for inference (us): 879
+104
+
+Time for inference (us): 693
+104
+
+Time for inference (us): 788
+105
+
+Time for inference (us): 866
+106
+
+Time for inference (us): 718
+107
+
+Time for inference (us): 800
+108
+
+Time for inference (us): 690
+109
+
+Time for inference (us): 1161
+110
+
+Time for inference (us): 874
+111
+
+Time for inference (us): 1014
+112
+
+Time for inference (us): 673
+113
+
+Time for inference (us): 883
+115
+
+Time for inference (us): 821
+116
+
+Time for inference (us): 750
+117
+
+Time for inference (us): 701
+118
+
+Time for inference (us): 714
+119
+
+Time for inference (us): 1016
+120
+
+Time for inference (us): 876
+122
+
+Time for inference (us): 902
+123
+
+Time for inference (us): 887
+124
+
+Time for inference (us): 716
+125
+
+Time for inference (us): 786
+126
+
+Time for inference (us): 938
+127
+
+Time for inference (us): 962
+128
+
+Time for inference (us): 797
+129
+
+Time for inference (us): 874
+131
+
+Time for inference (us): 875
+132
+
+Time for inference (us): 702
+133
+
+Time for inference (us): 779
+134
+
+Time for inference (us): 828
+135
+
+Time for inference (us): 693
+136
+
+Time for inference (us): 769
+138
+
+Time for inference (us): 701
+139
+
+Time for inference (us): 714
+140
+
+Time for inference (us): 940
+141
+
+Time for inference (us): 787
+142
+
+Time for inference (us): 857
+143
+
+Time for inference (us): 692
+144
+
+Time for inference (us): 715
+145
+
+Time for inference (us): 892
+146
+
+Time for inference (us): 907
+147
+
+Time for inference (us): 939
+148
+
+Time for inference (us): 942
+150
+
+Time for inference (us): 853
+151
+
+Time for inference (us): 761
+152
+
+Time for inference (us): 849
+153
+
+Time for inference (us): 871
+154
+
+Time for inference (us): 745
+155
+
+Time for inference (us): 798
+156
+
+Time for inference (us): 856
+157
+
+Time for inference (us): 886
+159
+
+Time for inference (us): 1004
+160
+
+Time for inference (us): 701
+161
+
+Time for inference (us): 971
+162
+
+Time for inference (us): 726
+163
+
+Time for inference (us): 928
+164
+
+Time for inference (us): 751
+166
+
+Time for inference (us): 702
+167
+
+Time for inference (us): 764
+168
+
+Time for inference (us): 970
+169
+
+Time for inference (us): 867
+170
+
+Time for inference (us): 745
+171
+
+Time for inference (us): 718
+172
+
+Time for inference (us): 975
+174
+
+Time for inference (us): 662
+174
+
+Time for inference (us): 750
+176
+
+Time for inference (us): 868
+177
+
+Time for inference (us): 881
+178
+
+Time for inference (us): 854
+179
+
+Time for inference (us): 926
+180
+
+Time for inference (us): 737
+181
+
+Time for inference (us): 861
+183
+
+Time for inference (us): 760
+183
+
+Time for inference (us): 966
+184
+
+Time for inference (us): 761
+184
+
+Time for inference (us): 691
+184
+
+Time for inference (us): 954
+185
+
+Time for inference (us): 769
+185
+
+Time for inference (us): 777
+185
+
+Time for inference (us): 912
+186
+
+Time for inference (us): 711
+186
+
+Time for inference (us): 892
+186
+
+Time for inference (us): 865
+187
+
+Time for inference (us): 1044
+187
+
+Time for inference (us): 867
+188
+
+Time for inference (us): 1010
+188
+
+Time for inference (us): 843
+188
+
+Time for inference (us): 745
+189
+
+Time for inference (us): 684
+189
+
+Time for inference (us): 977
+189
+
+Time for inference (us): 789
+190
+
+Time for inference (us): 857
+190
+
+Time for inference (us): 953
+191
+
+Time for inference (us): 685
+191
+
+Time for inference (us): 740
+191
+
+Time for inference (us): 860
+192
+
+Time for inference (us): 844
+192
+
+Time for inference (us): 1022
+193
+
+Time for inference (us): 742
+193
+
+Time for inference (us): 885
+194
+
+Time for inference (us): 954
+194
+
+Time for inference (us): 692
+194
+
+Time for inference (us): 1024
+195
+
+Time for inference (us): 683
+195
+
+Time for inference (us): 859
+196
+
+Time for inference (us): 753
+196
+
+Time for inference (us): 993
+197
+
+Time for inference (us): 720
+197
+
+Time for inference (us): 692
+197
+
+Time for inference (us): 897
+198
+
+Time for inference (us): 724
+198
+
+Time for inference (us): 714
+199
+
+Time for inference (us): 993
+199
+
+Time for inference (us): 695
+200
+
+Time for inference (us): 878
+200
+
+Time for inference (us): 866
+201
+
+Time for inference (us): 693
+201
+
+Time for inference (us): 741
+201
+
+Time for inference (us): 702
+202
+
+Time for inference (us): 753
+202
+
+Time for inference (us): 845
+203
+
+Time for inference (us): 861
+203
+
+Time for inference (us): 787
+203
+
+Time for inference (us): 814
+204
+
+Time for inference (us): 863
+204
+
+Time for inference (us): 954
+205
+
+Time for inference (us): 660
+205
+
+Time for inference (us): 747
+205
+
+Time for inference (us): 904
+206
+
+Time for inference (us): 717
+206
+
+Time for inference (us): 757
+207
+
+Time for inference (us): 756
+207
+
+Time for inference (us): 810
+207
+
+Time for inference (us): 684
+208
+
+Time for inference (us): 701
+208
+
+Time for inference (us): 772
+209
+
+Time for inference (us): 1016
+209
+
+Time for inference (us): 755
+210
+
+Time for inference (us): 1109
+210
+
+Time for inference (us): 843
+211
+
+Time for inference (us): 1012
+211
+
+Time for inference (us): 1044
+212
+
+Time for inference (us): 735
+212
+
+Time for inference (us): 759
+212
+
+Time for inference (us): 863
+213
+
+Time for inference (us): 961
+213
+
+Time for inference (us): 692
+214
+
+Time for inference (us): 693
+214
+
+Time for inference (us): 932
+214
+
+Time for inference (us): 815
+215
+
+Time for inference (us): 860
+215
+
+Time for inference (us): 771
+216
+
+Time for inference (us): 823
+216
+
+Time for inference (us): 744
+216
+
+Time for inference (us): 807
+217
+
+Time for inference (us): 731
+217
+
+Time for inference (us): 888
+218
+
+Time for inference (us): 691
+218
+
+Time for inference (us): 913
+219
+
+Time for inference (us): 739
+219
+
+Time for inference (us): 898
+219
+
+Time for inference (us): 790
+220
+
+Time for inference (us): 760
+220
+
+Time for inference (us): 755
+221
+
+Time for inference (us): 757
+221
+
+Time for inference (us): 879
+221
+
+Time for inference (us): 879
+222
+
+Time for inference (us): 701
+222
+
+Time for inference (us): 761
+223
+
+Time for inference (us): 854
+223
+
+Time for inference (us): 722
+223
+
+Time for inference (us): 815
+224
+
+Time for inference (us): 944
+224
+
+Time for inference (us): 823
+225
+
+Time for inference (us): 702
+225
+
+Time for inference (us): 725
+226
+
+Time for inference (us): 941
+226
+
+Time for inference (us): 904
+227
+
+Time for inference (us): 790
+227
+
+Time for inference (us): 861
+227
+
+Time for inference (us): 857
+228
+
+Time for inference (us): 986
+228
+
+Time for inference (us): 812
+229
+
+Time for inference (us): 848
+229
+
+Time for inference (us): 692
+230
+
+Time for inference (us): 745
+230
+
+Time for inference (us): 696
+230
+
+Time for inference (us): 714
+231
+
+Time for inference (us): 859
+231
+
+Time for inference (us): 982
+231
+
+Time for inference (us): 691
+232
+
+Time for inference (us): 755
+232
+
+Time for inference (us): 952
+232
+
+Time for inference (us): 763
+233
+
+Time for inference (us): 673
+233
+
+Time for inference (us): 714
+233
+
+Time for inference (us): 778
+234
+
+Time for inference (us): 842
+234
+
+Time for inference (us): 692
+234
+
+Time for inference (us): 746
+234
+
+Time for inference (us): 882
+235
+
+Time for inference (us): 763
+235
+
+Time for inference (us): 996
+235
+
+Time for inference (us): 744
+236
+
+Time for inference (us): 803
+236
+
+Time for inference (us): 889
+236
+
+Time for inference (us): 1000
+237
+
+Time for inference (us): 760
+237
+
+Time for inference (us): 964
+237
+
+Time for inference (us): 871
+238
+
+Time for inference (us): 726
+238
+
+Time for inference (us): 740
+238
+
+Time for inference (us): 682
+238
+
+Time for inference (us): 761
+239
+
+Time for inference (us): 670
+239
+
+Time for inference (us): 761
+239
+
+Time for inference (us): 867
+240
+
+Time for inference (us): 895
+240
+
+Time for inference (us): 849
+240
+
+Time for inference (us): 973
+241
+
+Time for inference (us): 780
+241
+
+Time for inference (us): 806
+241
+
+Time for inference (us): 909
+241
+
+Time for inference (us): 742
+242
+
+Time for inference (us): 702
+242
+
+Time for inference (us): 1049
+242
+
+Time for inference (us): 719
+243
+
+Time for inference (us): 737
+243
+
+Time for inference (us): 757
+243
+
+Time for inference (us): 772
+244
+
+Time for inference (us): 739
+244
+
+Time for inference (us): 750
+244
+
+Time for inference (us): 1000
+244
+
+Time for inference (us): 688
+245
+
+Time for inference (us): 718
+245
+
+Time for inference (us): 730
+245
+
+Time for inference (us): 838
+246
+
+Time for inference (us): 701
+246
+
+Time for inference (us): 714
+246
+
+Time for inference (us): 1009
+246
+
+Time for inference (us): 769
+247
+
+Time for inference (us): 746
+247
+
+Time for inference (us): 673
+247
+
+Time for inference (us): 994
+248
+
+Time for inference (us): 726
+248
+
+Time for inference (us): 754
+248
+
+Time for inference (us): 941
+249
+
+Time for inference (us): 746
+249
+
+Time for inference (us): 757
+249
+
+Time for inference (us): 967
+249
+
+Time for inference (us): 934
+250
+
+Time for inference (us): 708
+250
+
+Time for inference (us): 877
+250
+
+Time for inference (us): 732
+251
+
+Time for inference (us): 713
+251
+
+Time for inference (us): 800
+251
+
+Time for inference (us): 865
+252
+
+Time for inference (us): 671
+252
+
+Time for inference (us): 716
+252
+
+Time for inference (us): 1013
+253
+
+Time for inference (us): 731
+253
+
+Time for inference (us): 673
+253
+
+Time for inference (us): 760
+254
+
+Time for inference (us): 773
+254
+
+Time for inference (us): 841
+254
+
+Time for inference (us): 745
+254
+
+Time for inference (us): 881
+255
+
+Time for inference (us): 1026
+255
+
+Time for inference (us): 738
+255
+
+Time for inference (us): 670
+255
+
+Time for inference (us): 717
+255
+
+Time for inference (us): 800
+256
+
+Time for inference (us): 740
+256
+
+Time for inference (us): 691
+256
+
+Time for inference (us): 941
+256
+
+Time for inference (us): 817
+257
+
+Time for inference (us): 912
+257
+
+Time for inference (us): 1138
+257
+
+Time for inference (us): 671
+257
+
+Time for inference (us): 1015
+258
+
+Time for inference (us): 895
+258
+
+Time for inference (us): 737
+258
+
+Time for inference (us): 855
+258
+
+Time for inference (us): 716
+258
+
+Time for inference (us): 860
+259
+
+Time for inference (us): 790
+259
+
+Time for inference (us): 1167
+259
+
+Time for inference (us): 814
+259
+
+Time for inference (us): 751
+260
+
+Time for inference (us): 755
+260
+
+Time for inference (us): 746
+260
+
+Time for inference (us): 681
+260
+
+Time for inference (us): 912
+260
+
+Time for inference (us): 759
+261
+
+Time for inference (us): 869
+261
+
+Time for inference (us): 704
+261
+
+Time for inference (us): 784
+261
+
+Time for inference (us): 870
+261
+
+Time for inference (us): 671
+262
+
+Time for inference (us): 753
+262
+
+Time for inference (us): 907
+262
+
+Time for inference (us): 761
+262
+
+Time for inference (us): 733
+262
+
+Time for inference (us): 774
+263
+
+Time for inference (us): 764
+263
+
+Time for inference (us): 878
+263
+
+Time for inference (us): 804
+263
+
+Time for inference (us): 862
+263
+
+Time for inference (us): 885
+264
+
+Time for inference (us): 795
+264
+
+Time for inference (us): 974
+264
+
+Time for inference (us): 813
+264
+
+Time for inference (us): 745
+264
+
+Time for inference (us): 815
+265
+
+Time for inference (us): 698
+265
+
+Time for inference (us): 670
+265
+
+Time for inference (us): 853
+265
+
+Time for inference (us): 1055
+265
+
+Time for inference (us): 754
+266
+
+Time for inference (us): 910
+266
+
+Time for inference (us): 879
+266
+
+Time for inference (us): 779
+266
+
+Time for inference (us): 784
+266
+
+Time for inference (us): 788
+267
+
+Time for inference (us): 987
+267
+
+Time for inference (us): 883
+267
+
+Time for inference (us): 752
+267
+
+Time for inference (us): 959
+267
+
+Time for inference (us): 688
+268
+
+Time for inference (us): 713
+268
+
+Time for inference (us): 809
+268
+
+Time for inference (us): 984
+268
+
+Time for inference (us): 790
+268
+
+Time for inference (us): 688
+269
+
+Time for inference (us): 981
+269
+
+Time for inference (us): 707
+269
+
+Time for inference (us): 831
+269
+
+Time for inference (us): 897
+269
+
+Time for inference (us): 771
+270
+
+Time for inference (us): 770
+270
+
+Time for inference (us): 671
+270
+
+Time for inference (us): 982
+270
+
+Time for inference (us): 762
+270
+
+Time for inference (us): 758
+271
+
+Time for inference (us): 971
+271
+
+Time for inference (us): 758
+271
+
+Time for inference (us): 825
+271
+
+Time for inference (us): 692
+271
+
+Time for inference (us): 805
+270
+
+Time for inference (us): 986
+270
+
+Time for inference (us): 729
+269
+
+Time for inference (us): 700
+268
+
+Time for inference (us): 760
+268
+
+Time for inference (us): 788
+267
+
+Time for inference (us): 934
+267
+
+Time for inference (us): 745
+266
+
+Time for inference (us): 652
+266
+
+Time for inference (us): 862
+265
+
+Time for inference (us): 984
+264
+
+Time for inference (us): 799
+264
+
+Time for inference (us): 688
+263
+
+Time for inference (us): 908
+263
+
+Time for inference (us): 671
+262
+
+Time for inference (us): 736
+262
+
+Time for inference (us): 959
+261
+
+Time for inference (us): 730
+260
+
+Time for inference (us): 860
+260
+
+Time for inference (us): 716
+259
+
+Time for inference (us): 721
+259
+
+Time for inference (us): 726
+258
+
+Time for inference (us): 767
+258
+
+Time for inference (us): 896
+257
+
+Time for inference (us): 738
+256
+
+Time for inference (us): 673
+256
+
+Time for inference (us): 716
+255
+
+Time for inference (us): 849
+255
+
+Time for inference (us): 720
+254
+
+Time for inference (us): 737
+254
+
+Time for inference (us): 721
+253
+
+Time for inference (us): 778
+252
+
+Time for inference (us): 1042
+252
+
+Time for inference (us): 943
+251
+
+Time for inference (us): 986
+251
+
+Time for inference (us): 805
+250
+
+Time for inference (us): 889
+249
+
+Time for inference (us): 883
+249
+
+Time for inference (us): 729
+248
+
+Time for inference (us): 755
+248
+
+Time for inference (us): 773
+247
+
+Time for inference (us): 715
+247
+
+Time for inference (us): 688
+246
+
+Time for inference (us): 936
+246
+
+Time for inference (us): 744
+245
+
+Time for inference (us): 702
+244
+
+Time for inference (us): 877
+244
+
+Time for inference (us): 879
+243
+
+Time for inference (us): 692
+243
+
+Time for inference (us): 716
+242
+
+Time for inference (us): 802
+242
+
+Time for inference (us): 726
+241
+
+Time for inference (us): 713
+240
+
+Time for inference (us): 1052
+240
+
+Time for inference (us): 773
+239
+
+Time for inference (us): 791
+239
+
+Time for inference (us): 716
+238
+
+Time for inference (us): 708
+238
+
+Time for inference (us): 885
+237
+
+Time for inference (us): 795
+237
+
+Time for inference (us): 902
+236
+
+Time for inference (us): 813
+235
+
+Time for inference (us): 738
+235
+
+Time for inference (us): 702
+234
+
+Time for inference (us): 980
+234
+
+Time for inference (us): 859
+233
+
+Time for inference (us): 693
+233
+
+Time for inference (us): 738
+232
+
+Time for inference (us): 886
+231
+
+Time for inference (us): 1024
+231
+
+Time for inference (us): 872
+230
+
+Time for inference (us): 1162
+229
+
+Time for inference (us): 671
+229
+
+Time for inference (us): 715
+228
+
+Time for inference (us): 978
+227
+
+Time for inference (us): 739
+227
+
+Time for inference (us): 757
+226
+
+Time for inference (us): 781
+226
+
+Time for inference (us): 739
+225
+
+Time for inference (us): 739
+225
+
+Time for inference (us): 747
+224
+
+Time for inference (us): 712
+224
+
+Time for inference (us): 730
+223
+
+Time for inference (us): 671
+223
+
+Time for inference (us): 706
+222
+
+Time for inference (us): 960
+222
+
+Time for inference (us): 729
+221
+
+Time for inference (us): 1147
+220
+
+Time for inference (us): 1215
+219
+
+Time for inference (us): 814
+219
+
+Time for inference (us): 689
+218
+
+Time for inference (us): 854
+218
+
+Time for inference (us): 705
+217
+
+Time for inference (us): 798
+217
+
+Time for inference (us): 743
+216
+
+Time for inference (us): 660
+216
+
+Time for inference (us): 944
+215
+
+Time for inference (us): 743
+214
+
+Time for inference (us): 1037
+214
+
+Time for inference (us): 906
+213
+
+Time for inference (us): 753
+213
+
+Time for inference (us): 1030
+212
+
+Time for inference (us): 699
+211
+
+Time for inference (us): 674
+211
+
+Time for inference (us): 761
+210
+
+Time for inference (us): 863
+210
+
+Time for inference (us): 751
+209
+
+Time for inference (us): 922
+209
+
+Time for inference (us): 740
+208
+
+Time for inference (us): 813
+208
+
+Time for inference (us): 905
+207
+
+Time for inference (us): 761
+206
+
+Time for inference (us): 852
+206
+
+Time for inference (us): 720
+205
+
+Time for inference (us): 719
+205
+
+Time for inference (us): 752
+204
+
+Time for inference (us): 766
+204
+
+Time for inference (us): 795
+203
+
+Time for inference (us): 933
+203
+
+Time for inference (us): 788
+202
+
+Time for inference (us): 725
+201
+
+Time for inference (us): 987
+201
+
+Time for inference (us): 728
+200
+
+Time for inference (us): 673
+200
+
+Time for inference (us): 719
+199
+
+Time for inference (us): 1003
+198
+
+Time for inference (us): 715
+198
+
+Time for inference (us): 890
+197
+
+Time for inference (us): 979
+197
+
+Time for inference (us): 836
+196
+
+Time for inference (us): 738
+195
+
+Time for inference (us): 670
+195
+
+Time for inference (us): 945
+194
+
+Time for inference (us): 662
+194
+
+Time for inference (us): 975
+193
+
+Time for inference (us): 835
+192
+
+Time for inference (us): 943
+192
+
+Time for inference (us): 787
+191
+
+Time for inference (us): 1062
+191
+
+Time for inference (us): 920
+190
+
+Time for inference (us): 719
+189
+
+Time for inference (us): 949
+189
+
+Time for inference (us): 965
+188
+
+Time for inference (us): 702
+188
+
+Time for inference (us): 728
+187
+
+Time for inference (us): 798
+187
+
+Time for inference (us): 972
+186
+
+Time for inference (us): 970
+185
+
+Time for inference (us): 699
+185
+
+Time for inference (us): 773
+184
+
+Time for inference (us): 831
+184
+
+Time for inference (us): 947
+183
+
+Time for inference (us): 882
+182
+
+Time for inference (us): 705
+182
+
+Time for inference (us): 1029
+181
+
+Time for inference (us): 852
+180
+
+Time for inference (us): 714
+180
+
+Time for inference (us): 974
+179
+
+Time for inference (us): 719
+179
+
+Time for inference (us): 717
+178
+
+Time for inference (us): 752
+178
+
+Time for inference (us): 752
+177
+
+Time for inference (us): 767
+177
+
+Time for inference (us): 900
+176
+
+Time for inference (us): 761
+176
+
+Time for inference (us): 781
+175
+
+Time for inference (us): 691
+174
+
+Time for inference (us): 883
+174
+
+Time for inference (us): 733
+173
+
+Time for inference (us): 1024
+173
+
+Time for inference (us): 715
+172
+
+Time for inference (us): 889
+172
+
+Time for inference (us): 786
+171
+
+Time for inference (us): 859
+170
+
+Time for inference (us): 760
+170
+
+Time for inference (us): 823
+169
+
+Time for inference (us): 787
+169
+
+Time for inference (us): 776
+168
+
+Time for inference (us): 925
+168
+
+Time for inference (us): 807
+167
+
+Time for inference (us): 920
+167
+
+Time for inference (us): 703
+166
+
+Time for inference (us): 936
+165
+
+Time for inference (us): 888
+165
+
+Time for inference (us): 980
+164
+
+Time for inference (us): 730
+164
+
+Time for inference (us): 867
+163
+
+Time for inference (us): 693
+162
+
+Time for inference (us): 917
+162
+
+Time for inference (us): 724
+161
+
+Time for inference (us): 726
+161
+
+Time for inference (us): 973
+160
+
+Time for inference (us): 765
+160
+
+Time for inference (us): 719
+159
+
+Time for inference (us): 720
+158
+
+Time for inference (us): 756
+157
+
+Time for inference (us): 843
+157
+
+Time for inference (us): 850
+156
+
+Time for inference (us): 866
+155
+
+Time for inference (us): 679
+154
+
+Time for inference (us): 761
+154
+
+Time for inference (us): 947
+153
+
+Time for inference (us): 692
+152
+
+Time for inference (us): 710
+152
+
+Time for inference (us): 752
+151
+
+Time for inference (us): 770
+150
+
+Time for inference (us): 707
+150
+
+Time for inference (us): 679
+149
+
+Time for inference (us): 894
+148
+
+Time for inference (us): 952
+147
+
+Time for inference (us): 856
+147
+
+Time for inference (us): 661
+146
+
+Time for inference (us): 716
+145
+
+Time for inference (us): 789
+145
+
+Time for inference (us): 835
+144
+
+Time for inference (us): 824
+143
+
+Time for inference (us): 808
+142
+
+Time for inference (us): 845
+142
+
+Time for inference (us): 742
+141
+
+Time for inference (us): 754
+140
+
+Time for inference (us): 981
+139
+
+Time for inference (us): 758
+139
+
+Time for inference (us): 832
+138
+
+Time for inference (us): 889
+137
+
+Time for inference (us): 778
+136
+
+Time for inference (us): 726
+136
+
+Time for inference (us): 719
+135
+
+Time for inference (us): 723
+134
+
+Time for inference (us): 806
+134
+
+Time for inference (us): 717
+133
+
+Time for inference (us): 716
+132
+
+Time for inference (us): 842
+131
+
+Time for inference (us): 690
+131
+
+Time for inference (us): 717
+130
+
+Time for inference (us): 732
+129
+
+Time for inference (us): 765
+129
+
+Time for inference (us): 895
+128
+
+Time for inference (us): 989
+127
+
+Time for inference (us): 926
+126
+
+Time for inference (us): 857
+125
+
+Time for inference (us): 851
+124
+
+Time for inference (us): 714
+124
+
+Time for inference (us): 707
+123
+
+Time for inference (us): 678
+123
+
+Time for inference (us): 700
+122
+
+Time for inference (us): 727
+121
+
+Time for inference (us): 673
+121
+
+Time for inference (us): 743
+120
+
+Time for inference (us): 824
+119
+
+Time for inference (us): 721
+118
+
+Time for inference (us): 915
+118
+
+Time for inference (us): 700
+117
+
+Time for inference (us): 713
+116
+
+Time for inference (us): 850
+115
+
+Time for inference (us): 781
+115
+
+Time for inference (us): 750
+114
+
+Time for inference (us): 761
+114
+
+Time for inference (us): 766
+113
+
+Time for inference (us): 965
+112
+
+Time for inference (us): 976
+111
+
+Time for inference (us): 671
+111
+
+Time for inference (us): 783
+110
+
+Time for inference (us): 835
+109
+
+Time for inference (us): 663
+109
+
+Time for inference (us): 1058
+108
+
+Time for inference (us): 918
+107
+
+Time for inference (us): 853
+106
+
+Time for inference (us): 793
+105
+
+Time for inference (us): 826
+104
+
+Time for inference (us): 671
+103
+
+Time for inference (us): 705
+102
+
+Time for inference (us): 975
+101
+
+Time for inference (us): 730
+100
+
+Time for inference (us): 835
+98
+
+Time for inference (us): 752
+97
+
+Time for inference (us): 749
+97
+
+Time for inference (us): 741
+96
+
+Time for inference (us): 719
+95
+
+Time for inference (us): 755
+94
+
+Time for inference (us): 737
+93
+
+Time for inference (us): 670
+92
+
+Time for inference (us): 891
+91
+
+Time for inference (us): 686
+90
+
+Time for inference (us): 692
+89
+
+Time for inference (us): 707
+88
+
+Time for inference (us): 767
+87
+
+Time for inference (us): 1012
+86
+
+Time for inference (us): 946
+85
+
+Time for inference (us): 819
+84
+
+Time for inference (us): 751
+83
+
+Time for inference (us): 743
+83
+
+Time for inference (us): 745
+82
+
+Time for inference (us): 893
+80
+
+Time for inference (us): 896
+79
+
+Time for inference (us): 680
+79
+
+Time for inference (us): 891
+78
+
+Time for inference (us): 723
+77
+
+Time for inference (us): 670
+76
+
+Time for inference (us): 759
+75
+
+Time for inference (us): 702
+74
+
+Time for inference (us): 758
+73
+
+Time for inference (us): 715
+72
+
+Time for inference (us): 958
+71
+
+Time for inference (us): 714
+70
+
+Time for inference (us): 764
+69
+
+Time for inference (us): 779
+68
+
+Time for inference (us): 731
+67
+
+Time for inference (us): 979
+66
+
+Time for inference (us): 817
+65
+
+Time for inference (us): 854
+64
+
+Time for inference (us): 719
+63
+
+Time for inference (us): 850
+62
+
+Time for inference (us): 871
+61
+
+Time for inference (us): 897
+60
+
+Time for inference (us): 821
+59
+
+Time for inference (us): 766
+58
+
+Time for inference (us): 777
+57
+
+Time for inference (us): 967
+56
+
+Time for inference (us): 930
+55
+
+Time for inference (us): 951
+54
+
+Time for inference (us): 753
+53
+
+Time for inference (us): 778
+52
+
+Time for inference (us): 737
+51
+
+Time for inference (us): 670
+50
+
+Time for inference (us): 707
+49
+
+Time for inference (us): 977
+48
+
+Time for inference (us): 719
+47
+
+Time for inference (us): 670
+46
+
+Time for inference (us): 730
+45
+
+Time for inference (us): 700
+44
+
+Time for inference (us): 719
+43
+
+Time for inference (us): 850
+42
+
+Time for inference (us): 858
+41
+
+Time for inference (us): 702
+40
+
+Time for inference (us): 725
+39
+
+Time for inference (us): 922
+38
+
+Time for inference (us): 717
+37
+
+Time for inference (us): 789
+36
+
+Time for inference (us): 701
+35
+
+Time for inference (us): 972
+34
+
+Time for inference (us): 790
+33
+
+Time for inference (us): 683
+33
+
+Time for inference (us): 885
+32
+
+Time for inference (us): 906
+31
+
+Time for inference (us): 751
+29
+
+Time for inference (us): 1026
+29
+
+Time for inference (us): 828
+28
+
+Time for inference (us): 716
+27
+
+Time for inference (us): 753
+26
+
+Time for inference (us): 699
+25
+
+Time for inference (us): 716
+24
+
+Time for inference (us): 832
+23
+
+Time for inference (us): 868
+22
+
+Time for inference (us): 693
+21
+
+Time for inference (us): 706
+20
+
+Time for inference (us): 986
+18
+
+Time for inference (us): 714
+17
+
+Time for inference (us): 694
+17
+
+Time for inference (us): 760
+16
+
+Time for inference (us): 973
+15
+
+Time for inference (us): 877
+13
+
+Time for inference (us): 922
+12
+
+Time for inference (us): 1053
+11
+
+Time for inference (us): 843
+10
+
+Time for inference (us): 873
+9
+
+Time for inference (us): 821
+8
+
+Time for inference (us): 969
+7
+
+Time for inference (us): 740
+6
+
+Time for inference (us): 756
+5
+
+Time for inference (us): 700
+4
+
+Time for inference (us): 704
+4
+
+Time for inference (us): 862
+3
+
+Time for inference (us): 759
+2
+
+Time for inference (us): 985
+0
+
+Time for inference (us): 708
+0
+
+Time for inference (us): 730
+0
+
+Time for inference (us): 818
+-1
+
+Time for inference (us): 1137
+-2
+
+Time for inference (us): 856
+-3
+
+Time for inference (us): 1036
+-5
+
+Time for inference (us): 826
+-6
+
+Time for inference (us): 1014
+-7
+
+Time for inference (us): 968
+-8
+
+Time for inference (us): 1058
+-9
+
+Time for inference (us): 972
+-10
+
+Time for inference (us): 1051
+-11
+
+Time for inference (us): 914
+-12
+
+Time for inference (us): 852
+-13
+
+Time for inference (us): 1065
+-15
+
+Time for inference (us): 821
+-15
+
+Time for inference (us): 788
+-16
+
+Time for inference (us): 870
+-17
+
+Time for inference (us): 859
+-19
+
+Time for inference (us): 1049
+-20
+
+Time for inference (us): 840
+-21
+
+Time for inference (us): 1006
+-22
+
+Time for inference (us): 1010
+-23
+
+Time for inference (us): 925
+-24
+
+Time for inference (us): 976
+-25
+
+Time for inference (us): 815
+-26
+
+Time for inference (us): 1022
+-27
+
+Time for inference (us): 1090
+-28
+
+Time for inference (us): 828
+-29
+
+Time for inference (us): 826
+-30
+
+Time for inference (us): 1048
+-31
+
+Time for inference (us): 786
+-32
+
+Time for inference (us): 824
+-33
+
+Time for inference (us): 1037
+-34
+
+Time for inference (us): 961
+-35
+
+Time for inference (us): 922
+-36
+
+Time for inference (us): 787
+-37
+
+Time for inference (us): 947
+-38
+
+Time for inference (us): 1020
+-39
+
+Time for inference (us): 1017
+-40
+
+Time for inference (us): 1061
+-41
+
+Time for inference (us): 1003
+-42
+
+Time for inference (us): 1014
+-43
+
+Time for inference (us): 953
+-44
+
+Time for inference (us): 754
+-45
+
+Time for inference (us): 1072
+-47
+
+Time for inference (us): 893
+-48
+
+Time for inference (us): 827
+-49
+
+Time for inference (us): 823
+-50
+
+Time for inference (us): 826
+-51
+
+Time for inference (us): 827
+-52
+
+Time for inference (us): 765
+-53
+
+Time for inference (us): 826
+-54
+
+Time for inference (us): 968
+-55
+
+Time for inference (us): 999
+-56
+
+Time for inference (us): 968
+-57
+
+Time for inference (us): 981
+-58
+
+Time for inference (us): 1010
+-60
+
+Time for inference (us): 1037
+-61
+
+Time for inference (us): 823
+-62
+
+Time for inference (us): 812
+-63
+
+Time for inference (us): 1064
+-64
+
+Time for inference (us): 807
+-65
+
+Time for inference (us): 784
+-66
+
+Time for inference (us): 885
+-67
+
+Time for inference (us): 798
+-68
+
+Time for inference (us): 956
+-69
+
+Time for inference (us): 852
+-70
+
+Time for inference (us): 850
+-71
+
+Time for inference (us): 811
+-72
+
+Time for inference (us): 1016
+-73
+
+Time for inference (us): 1048
+-74
+
+Time for inference (us): 846
+-75
+
+Time for inference (us): 810
+-76
+
+Time for inference (us): 1040
+-77
+
+Time for inference (us): 821
+-78
+
+Time for inference (us): 836
+-79
+
+Time for inference (us): 979
+-80
+
+Time for inference (us): 819
+-81
+
+Time for inference (us): 810
+-82
+
+Time for inference (us): 1076
+-84
+
+Time for inference (us): 817
+-85
+
+Time for inference (us): 799
+-86
+
+Time for inference (us): 1047
+-87
+
+Time for inference (us): 809
+-88
+
+Time for inference (us): 1035
+-89
+
+Time for inference (us): 1048
+-90
+
+Time for inference (us): 824
+-91
+
+Time for inference (us): 827
+-93
+
+Time for inference (us): 978
+-94
+
+Time for inference (us): 1008
+-95
+
+Time for inference (us): 980
+-96
+
+Time for inference (us): 845
+-97
+
+Time for inference (us): 1036
+-98
+
+Time for inference (us): 1010
+-99
+
+Time for inference (us): 982
+-101
+
+Time for inference (us): 979
+-102
+
+Time for inference (us): 845
+-103
+
+Time for inference (us): 758
+-103
+
+Time for inference (us): 872
+-104
+
+Time for inference (us): 1043
+-105
+
+Time for inference (us): 1045
+-107
+
+Time for inference (us): 826
+-108
+
+Time for inference (us): 1067
+-109
+
+Time for inference (us): 1059
+-110
+
+Time for inference (us): 860
+-111
+
+Time for inference (us): 832
+-112
+
+Time for inference (us): 823
+-113
+
+Time for inference (us): 809
+-114
+
+Time for inference (us): 824
+-115
+
+Time for inference (us): 981
+-116
+
+Time for inference (us): 815
+-117
+
+Time for inference (us): 757
+-118
+
+Time for inference (us): 867
+-119
+
+Time for inference (us): 883
+-120
+
+Time for inference (us): 833
+-121
+
+Time for inference (us): 990
+-122
+
+Time for inference (us): 1043
+-123
+
+Time for inference (us): 1018
+-125
+
+Time for inference (us): 1003
+-126
+
+Time for inference (us): 1064
+-127
+
+Time for inference (us): 1057
+-128
+
+Time for inference (us): 1015
+-129
+
+Time for inference (us): 1006
+-130
+
+Time for inference (us): 917
+-131
+
+Time for inference (us): 757
+-132
+
+Time for inference (us): 818
+-133
+
+Time for inference (us): 800
+-134
+
+Time for inference (us): 1010
+-135
+
+Time for inference (us): 931
+-136
+
+Time for inference (us): 788
+-137
+
+Time for inference (us): 905
+-138
+
+Time for inference (us): 1012
+-139
+
+Time for inference (us): 974
+-140
+
+Time for inference (us): 1061
+-141
+
+Time for inference (us): 1012
+-142
+
+Time for inference (us): 1014
+-143
+
+Time for inference (us): 857
+-144
+
+Time for inference (us): 1014
+-146
+
+Time for inference (us): 981
+-147
+
+Time for inference (us): 853
+-148
+
+Time for inference (us): 1005
+-149
+
+Time for inference (us): 1018
+-150
+
+Time for inference (us): 972
+-151
+
+Time for inference (us): 975
+-152
+
+Time for inference (us): 988
+-153
+
+Time for inference (us): 1075
+-154
+
+Time for inference (us): 997
+-155
+
+Time for inference (us): 1005
+-156
+
+Time for inference (us): 1089
+-158
+
+Time for inference (us): 1011
+-159
+
+Time for inference (us): 1009
+-160
+
+Time for inference (us): 847
+-161
+
+Time for inference (us): 828
+-162
+
+Time for inference (us): 1007
+-163
+
+Time for inference (us): 1056
+-164
+
+Time for inference (us): 797
+-165
+
+Time for inference (us): 1072
+-166
+
+Time for inference (us): 1005
+-167
+
+Time for inference (us): 1087
+-169
+
+Time for inference (us): 983
+-170
+
+Time for inference (us): 1010
+-171
+
+Time for inference (us): 835
+-172
+
+Time for inference (us): 984
+-173
+
+Time for inference (us): 1021
+-174
+
+Time for inference (us): 810
+-175
+
+Time for inference (us): 1011
+-176
+
+Time for inference (us): 866
+-177
+
+Time for inference (us): 1000
+-178
+
+Time for inference (us): 1011
+-179
+
+Time for inference (us): 1071
+-180
+
+Time for inference (us): 975
+-182
+
+Time for inference (us): 826
+-183
+
+Time for inference (us): 848
+-184
+
+Time for inference (us): 840
+-185
+
+Time for inference (us): 1006
+-186
+
+Time for inference (us): 955
+-187
+
+Time for inference (us): 845
+-188
+
+Time for inference (us): 859
+-189
+
+Time for inference (us): 844
+-190
+
+Time for inference (us): 876
+-191
+
+Time for inference (us): 975
+-192
+
+Time for inference (us): 798
+-193
+
+Time for inference (us): 1035
+-194
+
+Time for inference (us): 853
+-195
+
+Time for inference (us): 979
+-196
+
+Time for inference (us): 1004
+-197
+
+Time for inference (us): 929
+-198
+
+Time for inference (us): 788
+-199
+
+Time for inference (us): 1000
+-201
+
+Time for inference (us): 1011
+-202
+
+Time for inference (us): 1102
+-203
+
+Time for inference (us): 1030
+-204
+
+Time for inference (us): 1001
+-205
+
+Time for inference (us): 977
+-206
+
+Time for inference (us): 839
+-207
+
+Time for inference (us): 845
+-208
+
+Time for inference (us): 986
+-209
+
+Time for inference (us): 834
+-210
+
+Time for inference (us): 880
+-212
+
+Time for inference (us): 843
+-213
+
+Time for inference (us): 850
+-213
+
+Time for inference (us): 828
+-215
+
+Time for inference (us): 1029
+-215
+
+Time for inference (us): 884
+-216
+
+Time for inference (us): 786
+-217
+
+Time for inference (us): 788
+-218
+
+Time for inference (us): 949
+-219
+
+Time for inference (us): 812
+-220
+
+Time for inference (us): 1021
+-221
+
+Time for inference (us): 854
+-222
+
+Time for inference (us): 1060
+-223
+
+Time for inference (us): 1084
+-223
+
+Time for inference (us): 1014
+-223
+
+Time for inference (us): 1009
+-223
+
+Time for inference (us): 923
+-224
+
+Time for inference (us): 787
+-224
+
+Time for inference (us): 757
+-224
+
+Time for inference (us): 781
+-224
+
+Time for inference (us): 788
+-224
+
+Time for inference (us): 758
+-224
+
+Time for inference (us): 785
+-224
+
+Time for inference (us): 790
+-224
+
+Time for inference (us): 788
+-225
+
+Time for inference (us): 788
+-225
+
+Time for inference (us): 755
+-225
+
+Time for inference (us): 756
+-225
+
+Time for inference (us): 988
+-225
+
+Time for inference (us): 833
+-225
+
+Time for inference (us): 824
+-225
+
+Time for inference (us): 826
+-225
+
+Time for inference (us): 1010
+-226
+
+Time for inference (us): 1033
+-226
+
+Time for inference (us): 823
+-226
+
+Time for inference (us): 1031
+-226
+
+Time for inference (us): 1010
+-226
+
+Time for inference (us): 851
+-226
+
+Time for inference (us): 1012
+-226
+
+Time for inference (us): 1010
+-227
+
+Time for inference (us): 891
+-227
+
+Time for inference (us): 788
+-227
+
+Time for inference (us): 756
+-227
+
+Time for inference (us): 859
+-227
+
+Time for inference (us): 815
+-227
+
+Time for inference (us): 1002
+-227
+
+Time for inference (us): 990
+-227
+
+Time for inference (us): 834
+-228
+
+Time for inference (us): 787
+-228
+
+Time for inference (us): 961
+-228
+
+Time for inference (us): 1010
+-228
+
+Time for inference (us): 1020
+-228
+
+Time for inference (us): 989
+-228
+
+Time for inference (us): 1012
+-229
+
+Time for inference (us): 1019
+-229
+
+Time for inference (us): 850
+-229
+
+Time for inference (us): 787
+-229
+
+Time for inference (us): 759
+-229
+
+Time for inference (us): 758
+-229
+
+Time for inference (us): 758
+-229
+
+Time for inference (us): 934
+-229
+
+Time for inference (us): 1015
+-229
+
+Time for inference (us): 979
+-230
+
+Time for inference (us): 859
+-230
+
+Time for inference (us): 1006
+-230
+
+Time for inference (us): 1009
+-230
+
+Time for inference (us): 855
+-230
+
+Time for inference (us): 998
+-230
+
+Time for inference (us): 1018
+-231
+
+Time for inference (us): 1004
+-231
+
+Time for inference (us): 1017
+-231
+
+Time for inference (us): 850
+-231
+
+Time for inference (us): 997
+-231
+
+Time for inference (us): 904
+-231
+
+Time for inference (us): 867
+-231
+
+Time for inference (us): 1007
+-232
+
+Time for inference (us): 1009
+-232
+
+Time for inference (us): 1077
+-232
+
+Time for inference (us): 986
+-232
+
+Time for inference (us): 843
+-232
+
+Time for inference (us): 836
+-232
+
+Time for inference (us): 787
+-232
+
+Time for inference (us): 755
+-232
+
+Time for inference (us): 900
+-233
+
+Time for inference (us): 852
+-233
+
+Time for inference (us): 812
+-233
+
+Time for inference (us): 1012
+-233
+
+Time for inference (us): 857
+-233
+
+Time for inference (us): 1013
+-233
+
+Time for inference (us): 1014
+-233
+
+Time for inference (us): 1081
+-234
+
+Time for inference (us): 983
+-234
+
+Time for inference (us): 986
+-234
+
+Time for inference (us): 825
+-234
+
+Time for inference (us): 855
+-234
+
+Time for inference (us): 832
+-234
+
+Time for inference (us): 1011
+-234
+
+Time for inference (us): 909
+-234
+
+Time for inference (us): 759
+-235
+
+Time for inference (us): 759
+-235
+
+Time for inference (us): 758
+-235
+
+Time for inference (us): 929
+-235
+
+Time for inference (us): 849
+-235
+
+Time for inference (us): 1015
+-235
+
+Time for inference (us): 824
+-235
+
+Time for inference (us): 905
+-236
+
+Time for inference (us): 1065
+-236
+
+Time for inference (us): 985
+-236
+
+Time for inference (us): 1061
+-236
+
+Time for inference (us): 837
+-236
+
+Time for inference (us): 1000
+-236
+
+Time for inference (us): 927
+-236
+
+Time for inference (us): 817
+-236
+
+Time for inference (us): 808
+-237
+
+Time for inference (us): 1024
+-237
+
+Time for inference (us): 822
+-237
+
+Time for inference (us): 979
+-237
+
+Time for inference (us): 982
+-237
+
+Time for inference (us): 913
+-237
+
+Time for inference (us): 788
+-237
+
+Time for inference (us): 847
+-238
+
+Time for inference (us): 820
+-238
+
+Time for inference (us): 787
+-238
+
+Time for inference (us): 734
+-238
+
+Time for inference (us): 743
+-238
+
+Time for inference (us): 757
+-238
+
+Time for inference (us): 757
+-238
+
+Time for inference (us): 757
+-238
+
+Time for inference (us): 757
+-238
+
+Time for inference (us): 757
+-239
+
+Time for inference (us): 756
+-239
+
+Time for inference (us): 782
+-239
+
+Time for inference (us): 1009
+-239
+
+Time for inference (us): 847
+-239
+
+Time for inference (us): 758
+-239
+
+Time for inference (us): 759
+-239
+
+Time for inference (us): 757
+-239
+
+Time for inference (us): 758
+-239
+
+Time for inference (us): 782
+-240
+
+Time for inference (us): 870
+-240
+
+Time for inference (us): 816
+-240
+
+Time for inference (us): 863
+-240
+
+Time for inference (us): 1014
+-240
+
+Time for inference (us): 882
+-240
+
+Time for inference (us): 851
+-240
+
+Time for inference (us): 815
+-240
+
+Time for inference (us): 1014
+-241
+
+Time for inference (us): 1039
+-241
+
+Time for inference (us): 1079
+-241
+
+Time for inference (us): 1039
+-241
+
+Time for inference (us): 1046
+-241
+
+Time for inference (us): 1034
+-241
+
+Time for inference (us): 850
+-242
+
+Time for inference (us): 856
+-242
+
+Time for inference (us): 833
+-242
+
+Time for inference (us): 1007
+-242
+
+Time for inference (us): 889
+-242
+
+Time for inference (us): 759
+-242
+
+Time for inference (us): 1007
+-242
+
+Time for inference (us): 980
+-242
+
+Time for inference (us): 829
+-243
+
+Time for inference (us): 823
+-243
+
+Time for inference (us): 811
+-243
+
+Time for inference (us): 1061
+-243
+
+Time for inference (us): 891
+-243
+
+Time for inference (us): 788
+-243
+
+Time for inference (us): 787
+-243
+
+Time for inference (us): 829
+-243
+
+Time for inference (us): 915
+-244
+
+Time for inference (us): 843
+-244
+
+Time for inference (us): 802
+-244
+
+Time for inference (us): 1029
+-244
+
+Time for inference (us): 1049
+-244
+
+Time for inference (us): 1005
+-244
+
+Time for inference (us): 983
+-244
+
+Time for inference (us): 853
+-245
+
+Time for inference (us): 1007
+-245
+
+Time for inference (us): 1012
+-245
+
+Time for inference (us): 889
+-245
+
+Time for inference (us): 788
+-245
+
+Time for inference (us): 783
+-245
+
+Time for inference (us): 847
+-245
+
+Time for inference (us): 813
+-245
+
+Time for inference (us): 1022
+-246
+
+Time for inference (us): 1071
+-246
+
+Time for inference (us): 1007
+-246
+
+Time for inference (us): 1041
+-246
+
+Time for inference (us): 820
+-246
+
+Time for inference (us): 1059
+-246
+
+Time for inference (us): 997
+-246
+
+Time for inference (us): 819
+-247
+
+Time for inference (us): 757
+-247
+
+Time for inference (us): 787
+-247
+
+Time for inference (us): 789
+-247
+
+Time for inference (us): 825
+-247
+
+Time for inference (us): 1028
+-247
+
+Time for inference (us): 1014
+-247
+
+Time for inference (us): 859
+-247
+
+Time for inference (us): 836
+-248
+
+Time for inference (us): 804
+-248
+
+Time for inference (us): 983
+-248
+
+Time for inference (us): 855
+-248
+
+Time for inference (us): 1009
+-248
+
+Time for inference (us): 1015
+-248
+
+Time for inference (us): 848
+-248
+
+Time for inference (us): 853
+-249
+
+Time for inference (us): 811
+-249
+
+Time for inference (us): 1023
+-249
+
+Time for inference (us): 920
+-249
+
+Time for inference (us): 787
+-249
+
+Time for inference (us): 788
+-249
+
+Time for inference (us): 756
+-249
+
+Time for inference (us): 823
+-249
+
+Time for inference (us): 1039
+-250
+
+Time for inference (us): 1023
+-250
+
+Time for inference (us): 856
+-250
+
+Time for inference (us): 1006
+-250
+
+Time for inference (us): 1017
+-250
+
+Time for inference (us): 844
+-250
+
+Time for inference (us): 853
+-250
+
+Time for inference (us): 823
+-251
+
+Time for inference (us): 1030
+-251
+
+Time for inference (us): 815
+-251
+
+Time for inference (us): 1012
+-251
+
+Time for inference (us): 1002
+-251
+
+Time for inference (us): 830
+-251
+
+Time for inference (us): 842
+-251
+
+Time for inference (us): 847
+-252
+
+Time for inference (us): 868
+-252
+
+Time for inference (us): 1010
+-252
+
+Time for inference (us): 1005
+-252
+
+Time for inference (us): 885
+-252
+
+Time for inference (us): 828
+-252
+
+Time for inference (us): 1036
+-252
+
+Time for inference (us): 970
+-253
+
+Time for inference (us): 899
+-253
+
+Time for inference (us): 983
+-253
+
+Time for inference (us): 988
+-253
+
+Time for inference (us): 1018
+-253
+
+Time for inference (us): 1013
+-253
+
+Time for inference (us): 1009
+-253
+
+Time for inference (us): 1014
+-254
+
+Time for inference (us): 985
+-254
+
+Time for inference (us): 851
+-254
+
+Time for inference (us): 1010
+-254
+
+Time for inference (us): 1017
+-254
+
+Time for inference (us): 841
+-254
+
+Time for inference (us): 1014
+-254
+
+Time for inference (us): 986
+-255
+
+Time for inference (us): 850
+-255
+
+Time for inference (us): 1014
+-255
+
+Time for inference (us): 997
+-255
+
+Time for inference (us): 840
+-255
+
+Time for inference (us): 823
+-255
+
+Time for inference (us): 850
+-255
+
+Time for inference (us): 821
+-256
+
+Time for inference (us): 826
+-256
+
+Time for inference (us): 1019
+-256
+
+Time for inference (us): 990
+-256
+
+Time for inference (us): 972
+-256
+
+Time for inference (us): 1012
+-256
+
+Time for inference (us): 974
+-257
+
+Time for inference (us): 1015
+-257
+
+Time for inference (us): 1064
+-257
+
+Time for inference (us): 1012
+-257
+
+Time for inference (us): 844
+-257
+
+Time for inference (us): 844
+-256
+
+Time for inference (us): 836
+-255
+
+Time for inference (us): 834
+-255
+
+Time for inference (us): 823
+-254
+
+Time for inference (us): 1034
+-253
+
+Time for inference (us): 980
+-252
+
+Time for inference (us): 844
+-252
+
+Time for inference (us): 814
+-251
+
+Time for inference (us): 817
+-250
+
+Time for inference (us): 755
+-250
+
+Time for inference (us): 1045
+-249
+
+Time for inference (us): 1009
+-248
+
+Time for inference (us): 888
+-247
+
+Time for inference (us): 758
+-247
+
+Time for inference (us): 1019
+-246
+
+Time for inference (us): 965
+-245
+
+Time for inference (us): 810
+-244
+
+Time for inference (us): 787
+-244
+
+Time for inference (us): 788
+-243
+
+Time for inference (us): 787
+-243
+
+Time for inference (us): 963
+-242
+
+Time for inference (us): 1018
+-241
+
+Time for inference (us): 1011
+-240
+
+Time for inference (us): 863
+-240
+
+Time for inference (us): 815
+-239
+
+Time for inference (us): 1006
+-238
+
+Time for inference (us): 1031
+-237
+
+Time for inference (us): 879
+-237
+
+Time for inference (us): 941
+-236
+
+Time for inference (us): 1005
+-235
+
+Time for inference (us): 1000
+-234
+
+Time for inference (us): 1064
+-233
+
+Time for inference (us): 1004
+-232
+
+Time for inference (us): 939
+-232
+
+Time for inference (us): 895
+-231
+
+Time for inference (us): 788
+-231
+
+Time for inference (us): 955
+-230
+
+Time for inference (us): 1034
+-229
+
+Time for inference (us): 1012
+-228
+
+Time for inference (us): 1013
+-227
+
+Time for inference (us): 1019
+-226
+
+Time for inference (us): 851
+-225
+
+Time for inference (us): 1162
+-225
+
+Time for inference (us): 817
+-224
+
+Time for inference (us): 787
+-223
+
+Time for inference (us): 965
+-222
+
+Time for inference (us): 1013
+-222
+
+Time for inference (us): 1009
+-221
+
+Time for inference (us): 1075
+-220
+
+Time for inference (us): 815
+-220
+
+Time for inference (us): 815
+-219
+
+Time for inference (us): 1015
+-218
+
+Time for inference (us): 984
+-217
+
+Time for inference (us): 858
+-217
+
+Time for inference (us): 976
+-216
+
+Time for inference (us): 857
+-215
+
+Time for inference (us): 856
+-214
+
+Time for inference (us): 832
+-213
+
+Time for inference (us): 1049
+-213
+
+Time for inference (us): 1009
+-212
+
+Time for inference (us): 847
+-211
+
+Time for inference (us): 815
+-210
+
+Time for inference (us): 1012
+-210
+
+Time for inference (us): 1001
+-209
+
+Time for inference (us): 837
+-208
+
+Time for inference (us): 998
+-207
+
+Time for inference (us): 1023
+-206
+
+Time for inference (us): 1013
+-205
+
+Time for inference (us): 828
+-204
+
+Time for inference (us): 1019
+-203
+
+Time for inference (us): 892
+-203
+
+Time for inference (us): 874
+-202
+
+Time for inference (us): 833
+-201
+
+Time for inference (us): 855
+-200
+
+Time for inference (us): 1030
+-200
+
+Time for inference (us): 885
+-199
+
+Time for inference (us): 831
+-198
+
+Time for inference (us): 843
+-197
+
+Time for inference (us): 846
+-197
+
+Time for inference (us): 906
+-196
+
+Time for inference (us): 855
+-195
+
+Time for inference (us): 800
+-194
+
+Time for inference (us): 1009
+-194
+
+Time for inference (us): 917
+-193
+
+Time for inference (us): 944
+-192
+
+Time for inference (us): 816
+-192
+
+Time for inference (us): 836
+-191
+
+Time for inference (us): 865
+-190
+
+Time for inference (us): 972
+-189
+
+Time for inference (us): 881
+-189
+
+Time for inference (us): 785
+-188
+
+Time for inference (us): 1006
+-187
+
+Time for inference (us): 1016
+-186
+
+Time for inference (us): 898
+-186
+
+Time for inference (us): 958
+-185
+
+Time for inference (us): 1011
+-184
+
+Time for inference (us): 1010
+-183
+
+Time for inference (us): 1159
+-183
+
+Time for inference (us): 754
+-182
+
+Time for inference (us): 819
+-181
+
+Time for inference (us): 839
+-180
+
+Time for inference (us): 817
+-180
+
+Time for inference (us): 862
+-179
+
+Time for inference (us): 1006
+-178
+
+Time for inference (us): 1041
+-177
+
+Time for inference (us): 815
+-176
+
+Time for inference (us): 1038
+-175
+
+Time for inference (us): 1015
+-175
+
+Time for inference (us): 829
+-174
+
+Time for inference (us): 1031
+-173
+
+Time for inference (us): 911
+-172
+
+Time for inference (us): 786
+-172
+
+Time for inference (us): 860
+-171
+
+Time for inference (us): 828
+-170
+
+Time for inference (us): 1026
+-169
+
+Time for inference (us): 855
+-169
+
+Time for inference (us): 1010
+-168
+
+Time for inference (us): 1027
+-167
+
+Time for inference (us): 858
+-166
+
+Time for inference (us): 1012
+-165
+
+Time for inference (us): 1011
+-165
+
+Time for inference (us): 890
+-164
+
+Time for inference (us): 822
+-163
+
+Time for inference (us): 832
+-162
+
+Time for inference (us): 826
+-162
+
+Time for inference (us): 817
+-161
+
+Time for inference (us): 852
+-160
+
+Time for inference (us): 848
+-159
+
+Time for inference (us): 1005
+-158
+
+Time for inference (us): 1006
+-157
+
+Time for inference (us): 1015
+-157
+
+Time for inference (us): 799
+-156
+
+Time for inference (us): 1006
+-155
+
+Time for inference (us): 882
+-154
+
+Time for inference (us): 983
+-154
+
+Time for inference (us): 815
+-153
+
+Time for inference (us): 1021
+-152
+
+Time for inference (us): 840
+-152
+
+Time for inference (us): 973
+-151
+
+Time for inference (us): 838
+-150
+
+Time for inference (us): 988
+-149
+
+Time for inference (us): 987
+-148
+
+Time for inference (us): 1067
+-148
+
+Time for inference (us): 1031
+-147
+
+Time for inference (us): 809
+-146
+
+Time for inference (us): 1005
+-145
+
+Time for inference (us): 841
+-145
+
+Time for inference (us): 852
+-144
+
+Time for inference (us): 829
+-143
+
+Time for inference (us): 1049
+-142
+
+Time for inference (us): 1011
+-142
+
+Time for inference (us): 879
+-141
+
+Time for inference (us): 855
+-140
+
+Time for inference (us): 1046
+-139
+
+Time for inference (us): 827
+-138
+
+Time for inference (us): 973
+-137
+
+Time for inference (us): 961
+-137
+
+Time for inference (us): 977
+-136
+
+Time for inference (us): 839
+-135
+
+Time for inference (us): 1009
+-134
+
+Time for inference (us): 853
+-134
+
+Time for inference (us): 829
+-133
+
+Time for inference (us): 1066
+-132
+
+Time for inference (us): 816
+-131
+
+Time for inference (us): 822
+-130
+
+Time for inference (us): 1012
+-130
+
+Time for inference (us): 827
+-129
+
+Time for inference (us): 1012
+-128
+
+Time for inference (us): 1037
+-127
+
+Time for inference (us): 825
+-126
+
+Time for inference (us): 1038
+-126
+
+Time for inference (us): 1052
+-125
+
+Time for inference (us): 910
+-124
+
+Time for inference (us): 855
+-123
+
+Time for inference (us): 1048
+-122
+
+Time for inference (us): 830
+-122
+
+Time for inference (us): 1016
+-121
+
+Time for inference (us): 1053
+-120
+
+Time for inference (us): 1008
+-119
+
+Time for inference (us): 818
+-118
+
+Time for inference (us): 1043
+-117
+
+Time for inference (us): 996
+-117
+
+Time for inference (us): 834
+-116
+
+Time for inference (us): 1059
+-115
+
+Time for inference (us): 827
+-114
+
+Time for inference (us): 1089
+-113
+
+Time for inference (us): 919
+-113
+
+Time for inference (us): 820
+-112
+
+Time for inference (us): 837
+-111
+
+Time for inference (us): 992
+-110
+
+Time for inference (us): 796
+-109
+
+Time for inference (us): 1032
+-109
+
+Time for inference (us): 1054
+-108
+
+Time for inference (us): 1046
+-107
+
+Time for inference (us): 1010
+-106
+
+Time for inference (us): 901
+-105
+
+Time for inference (us): 788
+-105
+
+Time for inference (us): 819
+-104
+
+Time for inference (us): 755
+-103
+
+Time for inference (us): 1042
+-103
+
+Time for inference (us): 1016
+-102
+
+Time for inference (us): 894
+-101
+
+Time for inference (us): 789
+-101
+
+Time for inference (us): 782
+-100
+
+Time for inference (us): 755
+-99
+
+Time for inference (us): 903
+-99
+
+Time for inference (us): 814
+-98
+
+Time for inference (us): 1019
+-97
+
+Time for inference (us): 1011
+-96
+
+Time for inference (us): 849
+-96
+
+Time for inference (us): 1020
+-95
+
+Time for inference (us): 1009
+-94
+
+Time for inference (us): 842
+-93
+
+Time for inference (us): 814
+-93
+
+Time for inference (us): 815
+-92
+
+Time for inference (us): 1016
+-91
+
+Time for inference (us): 986
+-90
+
+Time for inference (us): 845
+-90
+
+Time for inference (us): 1039
+-89
+
+Time for inference (us): 956
+-88
+
+Time for inference (us): 1012
+-87
+
+Time for inference (us): 962
+-86
+
+Time for inference (us): 987
+-85
+
+Time for inference (us): 840
+-85
+
+Time for inference (us): 827
+-84
+
+Time for inference (us): 815
+-84
+
+Time for inference (us): 815
+-83
+
+Time for inference (us): 784
+-82
+
+Time for inference (us): 882
+-82
+
+Time for inference (us): 1038
+-81
+
+Time for inference (us): 1016
+-80
+
+Time for inference (us): 851
+-79
+
+Time for inference (us): 1011
+-78
+
+Time for inference (us): 985
+-78
+
+Time for inference (us): 1017
+-77
+
+Time for inference (us): 804
+-76
+
+Time for inference (us): 1056
+-75
+
+Time for inference (us): 886
+-75
+
+Time for inference (us): 787
+-74
+
+Time for inference (us): 755
+-73
+
+Time for inference (us): 827
+-73
+
+Time for inference (us): 870
+-72
+
+Time for inference (us): 803
+-71
+
+Time for inference (us): 1006
+-70
+
+Time for inference (us): 836
+-70
+
+Time for inference (us): 858
+-69
+
+Time for inference (us): 1028
+-68
+
+Time for inference (us): 846
+-67
+
+Time for inference (us): 1010
+-66
+
+Time for inference (us): 1005
+-66
+
+Time for inference (us): 888
+-65
+
+Time for inference (us): 788
+-64
+
+Time for inference (us): 756
+-64
+
+Time for inference (us): 901
+-63
+
+Time for inference (us): 1011
+-62
+
+Time for inference (us): 1013
+-61
+
+Time for inference (us): 915
+-61
+
+Time for inference (us): 755
+-60
+
+Time for inference (us): 829
+-59
+
+Time for inference (us): 849
+-58
+
+Time for inference (us): 998
+-57
+
+Time for inference (us): 1004
+-57
+
+Time for inference (us): 841
+-56
+
+Time for inference (us): 835
+-55
+
+Time for inference (us): 850
+-54
+
+Time for inference (us): 871
+-54
+
+Time for inference (us): 853
+-53
+
+Time for inference (us): 785
+-52
+
+Time for inference (us): 757
+-52
+
+Time for inference (us): 815
+-51
+
+Time for inference (us): 1029
+-50
+
+Time for inference (us): 1024
+-49
+
+Time for inference (us): 840
+-48
+
+Time for inference (us): 1026
+-48
+
+Time for inference (us): 1011
+-47
+
+Time for inference (us): 898
+-46
+
+Time for inference (us): 787
+-46
+
+Time for inference (us): 863
+-45
+
+Time for inference (us): 859
+-44
+
+Time for inference (us): 811
+-43
+
+Time for inference (us): 982
+-43
+
+Time for inference (us): 843
+-42
+
+Time for inference (us): 968
+-41
+
+Time for inference (us): 848
+-40
+
+Time for inference (us): 836
+-40
+
+Time for inference (us): 909
+-39
+
+Time for inference (us): 1020
+-38
+
+Time for inference (us): 989
+-37
+
+Time for inference (us): 997
+-36
+
+Time for inference (us): 829
+-35
+
+Time for inference (us): 833
+-35
+
+Time for inference (us): 948
+-34
+
+Time for inference (us): 964
+-33
+
+Time for inference (us): 981
+-32
+
+Time for inference (us): 963
+-31
+
+Time for inference (us): 979
+-31
+
+Time for inference (us): 844
+-30
+
+Time for inference (us): 977
+-29
+
+Time for inference (us): 815
+-29
+
+Time for inference (us): 1021
+-28
+
+Time for inference (us): 981
+-27
+
+Time for inference (us): 1005
+-26
+
+Time for inference (us): 833
+-25
+
+Time for inference (us): 883
+-25
+
+Time for inference (us): 863
+-24
+
+Time for inference (us): 760
+-23
+
+Time for inference (us): 834
+-23
+
+Time for inference (us): 1029
+-22
+
+Time for inference (us): 984
+-21
+
+Time for inference (us): 879
+-20
+
+Time for inference (us): 781
+-20
+
+Time for inference (us): 787
+-19
+
+Time for inference (us): 824
+-18
+
+Time for inference (us): 1093
+4
+
+Time for inference (us): 1016
+5
+
+Time for inference (us): 714
+6
+
+Time for inference (us): 741
+7
+
+Time for inference (us): 700
+8
+
+Time for inference (us): 751
+9
+
+Time for inference (us): 913
+9
+
+Time for inference (us): 759
+10
+
+Time for inference (us): 746
+11
+
+Time for inference (us): 722
+12
+
+Time for inference (us): 730
+12
+
+Time for inference (us): 723
+13
+
+Time for inference (us): 730
+14
+
+Time for inference (us): 768
+14
+
+Time for inference (us): 689
+15
+
+Time for inference (us): 994
+16
+
+Time for inference (us): 1014
+17
+
+Time for inference (us): 1013
+18
+
+Time for inference (us): 855
+19
+
+Time for inference (us): 707
+20
+
+Time for inference (us): 922
+21
+
+Time for inference (us): 853
+22
+
+Time for inference (us): 826
+22
+
+Time for inference (us): 813
+23
+
+Time for inference (us): 707
+24
+
+Time for inference (us): 763
+25
+
+Time for inference (us): 671
+26
+
+Time for inference (us): 672
+26
+
+Time for inference (us): 723
+27
+
+Time for inference (us): 981
+28
+
+Time for inference (us): 724
+29
+
+Time for inference (us): 699
+30
+
+Time for inference (us): 759
+31
+
+Time for inference (us): 914
+32
+
+Time for inference (us): 725
+32
+
+Time for inference (us): 660
+33
+
+Time for inference (us): 750
+34
+
+Time for inference (us): 775
+35
+
+Time for inference (us): 691
+35
+
+Time for inference (us): 720
+36
+
+Time for inference (us): 715
+37
+
+Time for inference (us): 702
+38
+
+Time for inference (us): 760
+39
+
+Time for inference (us): 938
+40
+
+Time for inference (us): 919
+41
+
+Time for inference (us): 673
+42
+
+Time for inference (us): 751
+42
+
+Time for inference (us): 850
+43
+
+Time for inference (us): 719
+44
+
+Time for inference (us): 804
+45
+
+Time for inference (us): 817
+45
+
+Time for inference (us): 800
+46
+
+Time for inference (us): 814
+47
+
+Time for inference (us): 714
+48
+
+Time for inference (us): 729
+49
+
+Time for inference (us): 723
+49
+
+Time for inference (us): 707
+50
+
+Time for inference (us): 818
+51
+
+Time for inference (us): 801
+52
+
+Time for inference (us): 714
+53
+
+Time for inference (us): 775
+53
+
+Time for inference (us): 975
+54
+
+Time for inference (us): 888
+55
+
+Time for inference (us): 946
+56
+
+Time for inference (us): 756
+57
+
+Time for inference (us): 726
+58
+
+Time for inference (us): 767
+58
+
+Time for inference (us): 720
+59
+
+Time for inference (us): 821
+60
+
+Time for inference (us): 759
+61
+
+Time for inference (us): 745
+61
+
+Time for inference (us): 709
+62
+
+Time for inference (us): 774
+63
+
+Time for inference (us): 934
+64
+
+Time for inference (us): 895
+65
+
+Time for inference (us): 982
+66
+
+Time for inference (us): 714
+67
+
+Time for inference (us): 671
+67
+
+Time for inference (us): 770
+68
+
+Time for inference (us): 949
+69
+
+Time for inference (us): 752
+70
+
+Time for inference (us): 711
+71
+
+Time for inference (us): 844
+71
+
+Time for inference (us): 690
+72
+
+Time for inference (us): 719
+73
+
+Time for inference (us): 717
+74
+
+Time for inference (us): 781
+75
+
+Time for inference (us): 669
+75
+
+Time for inference (us): 751
+76
+
+Time for inference (us): 830
+77
+
+Time for inference (us): 902
+78
+
+Time for inference (us): 816
+79
+
+Time for inference (us): 707
+80
+
+Time for inference (us): 706
+80
+
+Time for inference (us): 700
+81
+
+Time for inference (us): 715
+82
+
+Time for inference (us): 844
+83
+
+Time for inference (us): 689
+84
+
+Time for inference (us): 746
+84
+
+Time for inference (us): 733
+85
+
+Time for inference (us): 730
+86
+
+Time for inference (us): 724
+87
+
+Time for inference (us): 831
+88
+
+Time for inference (us): 802
+89
+
+Time for inference (us): 720
+89
+
+Time for inference (us): 792
+90
+
+Time for inference (us): 719
+91
+
+Time for inference (us): 805
+92
+
+Time for inference (us): 707
+92
+
+Time for inference (us): 766
+93
+
+Time for inference (us): 754
+94
+
+Time for inference (us): 857
+95
+
+Time for inference (us): 747
+96
+
+Time for inference (us): 904
+96
+
+Time for inference (us): 750
+97
+
+Time for inference (us): 689
+98
+
+Time for inference (us): 730
+99
+
+Time for inference (us): 723
+99
+
+Time for inference (us): 1037
+100
+
+Time for inference (us): 987
+101
+
+Time for inference (us): 670
+102
+
+Time for inference (us): 716
+103
+
+Time for inference (us): 709
+104
+
+Time for inference (us): 689
+104
+
+Time for inference (us): 731
+105
+
+Time for inference (us): 745
+106
+
+Time for inference (us): 691
+107
+
+Time for inference (us): 788
+107
+
+Time for inference (us): 774
+108
+
+Time for inference (us): 746
+109
+
+Time for inference (us): 750
+109
+
+Time for inference (us): 773
+110
+
+Time for inference (us): 778
+111
+
+Time for inference (us): 785
+112
+
+Time for inference (us): 879
+113
+
+Time for inference (us): 694
+115
+
+Time for inference (us): 713
+116
+
+Time for inference (us): 914
+117
+
+Time for inference (us): 751
+118
+
+Time for inference (us): 741
+118
+
+Time for inference (us): 745
+119
+
+Time for inference (us): 751
+120
+
+Time for inference (us): 901
+122
+
+Time for inference (us): 717
+123
+
+Time for inference (us): 861
+124
+
+Time for inference (us): 811
+125
+
+Time for inference (us): 847
+126
+
+Time for inference (us): 790
+127
+
+Time for inference (us): 804
+128
+
+Time for inference (us): 796
+129
+
+Time for inference (us): 689
+130
+
+Time for inference (us): 764
+131
+
+Time for inference (us): 799
+132
+
+Time for inference (us): 798
+133
+
+Time for inference (us): 797
+134
+
+Time for inference (us): 688
+135
+
+Time for inference (us): 781
+136
+
+Time for inference (us): 718
+137
+
+Time for inference (us): 732
+137
+
+Time for inference (us): 776
+139
+
+Time for inference (us): 884
+140
+
+Time for inference (us): 1020
+141
+
+Time for inference (us): 715
+142
+
+Time for inference (us): 758
+143
+
+Time for inference (us): 719
+144
+
+Time for inference (us): 768
+145
+
+Time for inference (us): 979
+146
+
+Time for inference (us): 701
+147
+
+Time for inference (us): 771
+148
+
+Time for inference (us): 1000
+150
+
+Time for inference (us): 717
+151
+
+Time for inference (us): 787
+152
+
+Time for inference (us): 778
+152
+
+Time for inference (us): 779
+153
+
+Time for inference (us): 748
+155
+
+Time for inference (us): 896
+156
+
+Time for inference (us): 716
+157
+
+Time for inference (us): 694
+158
+
+Time for inference (us): 988
+159
+
+Time for inference (us): 670
+160
+
+Time for inference (us): 1031
+162
+
+Time for inference (us): 1011
+163
+
+Time for inference (us): 678
+164
+
+Time for inference (us): 714
+165
+
+Time for inference (us): 1034
+167
+
+Time for inference (us): 864
+168
+
+Time for inference (us): 752
+169
+
+Time for inference (us): 833
+170
+
+Time for inference (us): 719
+171
+
+Time for inference (us): 715
+172
+
+Time for inference (us): 688
+174
+
+Time for inference (us): 885
+175
+
+Time for inference (us): 851
+176
+
+Time for inference (us): 871
+177
+
+Time for inference (us): 879
+178
+
+Time for inference (us): 719
+179
+
+Time for inference (us): 987
+181
+
+Time for inference (us): 686
+182
+
+Time for inference (us): 751
+182
+
+Time for inference (us): 740
+183
+
+Time for inference (us): 746
+184
+
+Time for inference (us): 758
+184
+
+Time for inference (us): 701
+184
+
+Time for inference (us): 761
+185
+
+Time for inference (us): 948
+185
+
+Time for inference (us): 691
+185
+
+Time for inference (us): 716
+186
+
+Time for inference (us): 717
+186
+
+Time for inference (us): 728
+186
+
+Time for inference (us): 863
+187
+
+Time for inference (us): 718
+187
+
+Time for inference (us): 847
+187
+
+Time for inference (us): 716
+188
+
+Time for inference (us): 718
+188
+
+Time for inference (us): 861
+189
+
+Time for inference (us): 714
+189
+
+Time for inference (us): 722
+189
+
+Time for inference (us): 848
+190
+
+Time for inference (us): 709
+190
+
+Time for inference (us): 762
+190
+
+Time for inference (us): 670

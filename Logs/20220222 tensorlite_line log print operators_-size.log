@@ -1,0 +1,1136 @@
+Starting...
+all_ops_resolver.cpp1
+depthwise_conv.cpp9
+micro_mutable_op_resolver.cpp3
+fully_connected.cpp8
+micro_mutable_op_resolver.cpp3
+pooling.cpp11
+micro_mutable_op_resolver.cpp3
+softmax.cpp11
+micro_mutable_op_resolver.cpp3
+logistic.cpp3
+micro_mutable_op_resolver.cpp3
+svdf.cpp7
+micro_mutable_op_resolver.cpp3
+conv.cpp9
+micro_mutable_op_resolver.cpp3
+pooling.cpp11
+micro_mutable_op_resolver.cpp3
+elementwise.cpp15
+micro_mutable_op_resolver.cpp3
+elementwise.cpp16
+micro_mutable_op_resolver.cpp3
+elementwise.cpp17
+micro_mutable_op_resolver.cpp3
+elementwise.cpp18
+micro_mutable_op_resolver.cpp3
+elementwise.cpp19
+micro_mutable_op_resolver.cpp3
+elementwise.cpp20
+micro_mutable_op_resolver.cpp3
+elementwise.cpp21
+micro_mutable_op_resolver.cpp3
+prelu.cpp4
+micro_mutable_op_resolver.cpp3
+floor.cpp2
+micro_mutable_op_resolver.cpp3
+maximum_minimum.cpp3
+micro_mutable_op_resolver.cpp3
+maximum_minimum.cpp4
+micro_mutable_op_resolver.cpp3
+arg_min_max.cpp6
+micro_mutable_op_resolver.cpp3
+arg_min_max.cpp7
+micro_mutable_op_resolver.cpp3
+logical.cpp4
+micro_mutable_op_resolver.cpp3
+logical.cpp5
+micro_mutable_op_resolver.cpp3
+elementwise.cpp21
+micro_mutable_op_resolver.cpp3
+reshape.cpp4
+micro_mutable_op_resolver.cpp3
+comparisons.cpp7
+micro_mutable_op_resolver.cpp3
+comparisons.cpp8
+micro_mutable_op_resolver.cpp3
+comparisons.cpp9
+micro_mutable_op_resolver.cpp3
+comparisons.cpp10
+micro_mutable_op_resolver.cpp3
+comparisons.cpp11
+micro_mutable_op_resolver.cpp3
+comparisons.cpp12
+micro_mutable_op_resolver.cpp3
+ceil.cpp3
+micro_mutable_op_resolver.cpp3
+round.cpp3
+micro_mutable_op_resolver.cpp3
+strided_slice.cpp5
+micro_mutable_op_resolver.cpp3
+pack.cpp4
+micro_mutable_op_resolver.cpp3
+split.cpp4
+micro_mutable_op_resolver.cpp3
+unpack.cpp4
+micro_mutable_op_resolver.cpp3
+neg.cpp2
+micro_mutable_op_resolver.cpp3
+add.cpp7
+micro_mutable_op_resolver.cpp3
+quantize.cpp4
+micro_mutable_op_resolver.cpp3
+dequantize.cpp3
+micro_mutable_op_resolver.cpp3
+activations.cpp9
+micro_mutable_op_resolver.cpp3
+activations.cpp10
+micro_mutable_op_resolver.cpp3
+micro_allocator.cpp1
+simple_memory_allocator.cpp1
+memory_helpers.cpp2
+micro_interpreter.cpp3
+micro_interpreter.cpp7
+micro_allocator.cpp3
+simple_memory_allocator.cpp1
+memory_helpers.cpp2
+micro_allocator.cpp3
+flatbuffer_conversions.cpp2
+memory_helpers.cpp5
+flatbuffer_conversions.cpp2
+memory_helpers.cpp4
+simple_memory_allocator.cpp1
+memory_helpers.cpp2
+micro_allocator.cpp3
+flatbuffer_conversions.cpp2
+memory_helpers.cpp5
+flatbuffer_conversions.cpp2
+memory_helpers.cpp4
+simple_memory_allocator.cpp1
+memory_helpers.cpp2
+micro_allocator.cpp3
+flatbuffer_conversions.cpp2
+memory_helpers.cpp5
+flatbuffer_conversions.cpp2
+memory_helpers.cpp4
+simple_memory_allocator.cpp1
+memory_helpers.cpp2
+micro_allocator.cpp3
+flatbuffer_conversions.cpp2
+memory_helpers.cpp5
+flatbuffer_conversions.cpp2
+memory_helpers.cpp4
+simple_memory_allocator.cpp1
+memory_helpers.cpp2
+memory_helpers.cpp1
+greedy_memory_planner.cpp2
+memory_helpers.cpp5
+flatbuffer_conversions.cpp2
+memory_helpers.cpp4
+memory_helpers.cpp3
+greedy_memory_planner.cpp3
+memory_helpers.cpp5
+flatbuffer_conversions.cpp2
+memory_helpers.cpp4
+memory_helpers.cpp3
+greedy_memory_planner.cpp3
+greedy_memory_planner.cpp7
+greedy_memory_planner.cpp6
+greedy_memory_planner.cpp1
+greedy_memory_planner.cpp5
+greedy_memory_planner.cpp4
+greedy_memory_planner.cpp5
+greedy_memory_planner.cpp9
+greedy_memory_planner.cpp6
+greedy_memory_planner.cpp9
+greedy_memory_planner.cpp6
+micro_interpreter.cpp9
+micro_interpreter.cpp10
+==start==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 0.00
+Y Value: -0.86
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 0.25
+Y Value: -0.37
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 0.50
+Y Value: 0.11
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 0.75
+Y Value: 0.60
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 1.00
+Y Value: 1.09
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 1.25
+Y Value: 1.58
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 1.50
+Y Value: 2.07
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 1.75
+Y Value: 2.56
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 2.00
+Y Value: 3.05
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 2.25
+Y Value: 3.54
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 2.50
+Y Value: 4.03
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 2.75
+Y Value: 4.52
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 3.00
+Y Value: 5.00
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 3.25
+Y Value: 5.49
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 3.50
+Y Value: 5.98
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 3.75
+Y Value: 6.47
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 4.00
+Y Value: 6.96
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 4.25
+Y Value: 7.45
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 4.50
+Y Value: 7.94
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 4.75
+Y Value: 8.43
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 5.00
+Y Value: 8.92
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 5.25
+Y Value: 9.41
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 5.50
+Y Value: 9.89
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 5.75
+Y Value: 10.38
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 6.00
+Y Value: 10.87
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 6.25
+Y Value: 11.36
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 6.50
+Y Value: 11.85
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 6.75
+Y Value: 12.34
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 7.00
+Y Value: 12.83
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 7.25
+Y Value: 13.32
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 7.50
+Y Value: 13.81
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 7.75
+Y Value: 14.30
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 8.00
+Y Value: 14.78
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 8.25
+Y Value: 15.27
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 8.50
+Y Value: 15.76
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 8.75
+Y Value: 16.25
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 9.00
+Y Value: 16.74
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 9.25
+Y Value: 17.23
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 9.50
+Y Value: 17.72
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 9.75
+Y Value: 18.21
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 10.00
+Y Value: 18.70
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 10.25
+Y Value: 19.19
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 10.50
+Y Value: 19.67
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 10.75
+Y Value: 20.16
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 11.00
+Y Value: 20.65
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 11.25
+Y Value: 21.14
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 11.50
+Y Value: 21.63
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 11.75
+Y Value: 22.12
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 12.00
+Y Value: 22.61
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 12.25
+Y Value: 23.10
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 12.50
+Y Value: 23.59
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 12.75
+Y Value: 24.08
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 13.00
+Y Value: 24.56
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 13.25
+Y Value: 25.05
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 13.50
+Y Value: 25.54
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 13.75
+Y Value: 26.03
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 14.00
+Y Value: 26.52
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 14.25
+Y Value: 27.01
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 14.50
+Y Value: 27.50
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 14.75
+Y Value: 27.99
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 15.00
+Y Value: 28.48
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 15.25
+Y Value: 28.97
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 15.50
+Y Value: 29.45
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 15.75
+Y Value: 29.94
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 16.00
+Y Value: 30.43
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 16.25
+Y Value: 30.92
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 16.50
+Y Value: 31.41
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 16.75
+Y Value: 31.90
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 17.00
+Y Value: 32.39
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 17.25
+Y Value: 32.88
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 17.50
+Y Value: 33.37
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 17.75
+Y Value: 33.86
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 18.00
+Y Value: 34.34
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 18.25
+Y Value: 34.83
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 18.50
+Y Value: 35.32
+==end==.
+micro_interpreter.cpp8
+micro_interpreter.cpp8 operators_->size() 1
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+X Value: 18.75
+Y Value: 35.81

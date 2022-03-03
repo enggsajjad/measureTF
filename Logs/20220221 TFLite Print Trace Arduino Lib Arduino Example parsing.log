@@ -1,0 +1,75 @@
+====start===
+micro_interpreter.cpp8 			TfLiteStatus MicroInterpreter::Invoke() 								\src\tensorflow\lite\experimental\micro 
+op_resolver.cpp1 				TfLiteStatus GetRegistrationFromOpCode 									\src\tensorflow\lite\core\api
+micro_mutable_op_resolver.cpp1 	const TfLiteRegistration* MicroMutableOpResolver::FindOp 				\src\tensorflow\lite\experimental\micro
+flatbuffer_conversions.cpp3 	TfLiteStatus ParseOpData(..  											\src\tensorflow\lite\core\api
+fully_connected.cpp2 			void* Init(TfLiteContext* context, const char* buffer, size_t length) 	\src\tensorflow\lite\experimental\micro\kernels
+fully_connected.cpp3 			TfLiteStatus Prepare(TfLiteContext* context, TfLiteNode* node)
+fully_connected.cpp7 			TfLiteStatus Eval(TfLiteContext* context, TfLiteNode* node)
+fully_connected.cpp1 			TfLiteStatus CalculateOpData(TfLiteContext* ...
+fully_connected.cpp6 			TfLiteStatus EvalFloat(...
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+error_reporter.cpp1  			int ErrorReporter::Report(const char* format, ...) 						\src\tensorflow\lite\core\api
+micro_error_reporter.cpp2 		int MicroErrorReporter::Report(... 										\src\tensorflow\lite\experimental\micro
+micro_error_reporter.cpp1 		void DebugLogPrintf(const char* format, va_list args)
+debug_log_numbers.cpp8 			extern "C" void DebugLogInt32(int32_t i) 								\src\tensorflow\lite\experimental\micro
+debug_log_numbers.cpp4 			char* FastInt32ToBufferLeft(int32_t i, char* buffer)
+debug_log_numbers.cpp3 			char* FastUInt32ToBufferLeft(uint32_t i, char* buffer, int base)
+debug_log_numbers.cpp1 			char* ReverseStringInPlace(char* start, char* end)
+133
+
+====end===
+micro_interpreter.cpp8
+
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+
+op_resolver.cpp1
+micro_mutable_op_resolver.cpp1
+flatbuffer_conversions.cpp3
+fully_connected.cpp2
+fully_connected.cpp3
+fully_connected.cpp7
+fully_connected.cpp1
+fully_connected.cpp6
+
+error_reporter.cpp1
+micro_error_reporter.cpp2
+micro_error_reporter.cpp1
+debug_log_numbers.cpp8
+debug_log_numbers.cpp4
+debug_log_numbers.cpp3
+debug_log_numbers.cpp1
+133
+
+====end===

@@ -1,0 +1,241 @@
+=====================================================================================
+Examples
+=====================================================================================
+Using Arduino Example but with Arduino TFLite Library
+C:\Users\Sajjad\Documents\Arduino\myExample\nano33sense\hello_world
+Using Tobias Structure but with Arduino TFLite Library
+C:\Users\Sajjad\Documents\Arduino\myExample\nano33sense\hello_world_tobias
+Using Tobias Structure with Tobias TFLite Library
+C:\Users\Sajjad\Documents\Arduino\myExample\nano33sense\hello_world_tobias1
+Using TFLite Arduino library with and without prints, Google Colab Model Trainer Sinuosidal
+C:\Users\Sajjad\Documents\Arduino\myExample\nano33sense\tensorlite_ex11
+Using TFLite Arduino library with and without prints, Google Colab Model Trainer Sinuosidal added another layer from 3 to 4
+C:\Users\Sajjad\Documents\Arduino\myExample\nano33sense\tensorlite_ex11_addlayer
+Using TFLite Arduino library with and without prints, Google Colab Model Trainer Line with single layer
+C:\Users\Sajjad\Documents\Arduino\myExample\nano33sense\tensorlite_line
+
+
+
+all_ops_resolver.h provides the operations used by the interpreter to run the model.
+micro_error_reporter.h outputs debug information.
+micro_interpreter.h contains code to load and run models.
+schema_generated.h contains the schema for the TensorFlow Lite FlatBuffer model file format.
+version.h provides versioning information for the TensorFlow Lite schema.
+
+=====================================================================================
+Searches
+=====================================================================================
+TflmTimer searches in following files:
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\tflite_micro_stock\library.json
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\tflite_micro_stock\tensorflow\lite\micro\micro_interpreter.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\conv.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\fully_connected.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\pooling.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\quantize_common.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\softmax.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\utils\tflmTimer.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\lib\utils\tflmTimer.h
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - Copy\src\main.cpp
+[RecordingMicroAllocator] searches in following files:
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware - hello\lib\tflite_micro_stock\tensorflow\lite\micro\recording_micro_allocator.cpp
+Searching 337 files for "arena_used_bytes" (regex)
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware\lib\tflite_micro_stock\tensorflow\lite\micro\micro_interpreter.h:
+Searching 337 files for "PrintAllocations" (regex)
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware\lib\tflite_micro_stock\tensorflow\lite\micro\recording_micro_allocator.cpp:
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware\lib\tflite_micro_stock\tensorflow\lite\micro\recording_micro_allocator.h:
+
+Searching 304 files for "startTimingService" (regex)
+0 matches
+Searching 353 files for "startTimingService" (regex)
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware_forNano\src\main.cpp
+
+Searching 304 files for "measureTime" (regex)
+28 matches across 6 files
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware_forNano\lib\tflite_micro_stock\tensorflow\lite\micro\micro_interpreter.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware_forNano\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\conv.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware_forNano\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\fully_connected.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware_forNano\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\pooling.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware_forNano\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\quantize_common.cpp
+C:\Users\Sajjad\Documents\PlatformIO\Projects\firmware_forNano\lib\tflite_micro_stock\tensorflow\lite\micro\kernels\softmax.cpp
+
+
+
+
+
+=====================================================================================
+Execution in VSC
+=====================================================================================
+
+> Executing task: C:\Users\Sajjad\.platformio\penv\Scripts\platformio.exe device monitor <
+
+--- Available filters and text transformations: colorize, debug, default, direct, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Miniterm on COM3  115200,8,N,1 ---
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+MEMORY (HEAP_CURRENT_SIZE,40735)
+MEMORY (HEAP_RESERVED_SIZE,209016)
+MEMORY (kTensorAreaUsed,1312)
+Status Got Model
+[RecordingMicroAllocator] Arena allocation total 1312 bytes
+[RecordingMicroAllocator] Arena allocation head 624 bytes
+[RecordingMicroAllocator] Arena allocation tail 688 bytes
+[RecordingMicroAllocator] 'TfLiteEvalTensor data' used 72 bytes with alignment overhead (requested 72 bytes for 6 allocations)
+[RecordingMicroAllocator] 'Persistent TfLiteTensor data' used 64 bytes with alignment overhead (requested 64 bytes for 2 tensors)
+[RecordingMicroAllocator] 'Persistent buffer data' used 200 bytes with alignment overhead (requested 132 bytes for 7 allocations)
+[RecordingMicroAllocator] 'NodeAndRegistration struct' used 96 bytes with alignment overhead (requested 96 bytes for 3 NodeAndRegistration structs)
+TIMING (1,298183),(255,298345),(114,298595),(114,313027),(3,313211),(3,339969),(255,349230),(1,571487)
+---Complete---
+
+
+
+
+=====================================================================================
+NANO BLE 33 Hello World Sine Wave
+=====================================================================================
+ Executing task: C:\Users\Sajjad\.platformio\penv\Scripts\platformio.exe device monitor <
+
+--- Available filters and text transformations: colorize, debug, default, direct, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Miniterm on COM3  115200,8,N,1 ---
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+MEMORY (HEAP_CURRENT_SIZE,40735)
+MEMORY (HEAP_RESERVED_SIZE,209016)
+MEMORY (kTensorAreaUsed,784)
+Status Got Model
+[RecordingMicroAllocator] Arena allocation total 784 bytes
+[RecordingMicroAllocator] Arena allocation head 128 bytes
+[RecordingMicroAllocator] Arena allocation tail 656 bytes
+[RecordingMicroAllocator] 'TfLiteEvalTensor data' used 120 bytes with alignment overhead (requested 120 bytes for 10 allocations)[RecordingMicroAllocator] 'Persistent TfLiteTensor data' used 64 bytes with alignment overhead (requested 64 bytes for 2 tensors)[RecordingMicroAllocator] 'Persistent buffer data' used 132 bytes with alignment overhead (requested 104 bytes for 5 allocations)[RecordingMicroAllocator] 'NodeAndRegistration struct' used 96 bytes with alignment overhead (requested 96 bytes for 3 NodeAndRegistration structs)
+TIMING (1,278054),(255,278217),(9,278460),(9,280003),(9,280168),(9,285540),(9,285722),(9,287785),(255,287928),(1,510558)
+---Complete---
+
+=====================================================================================
+Uploading
+=====================================================================================
+> Executing task: C:\Users\Sajjad\.platformio\penv\Scripts\platformio.exe run --target upload <
+
+Processing nano33ble (platform: nordicnrf52; board: nano33ble; framework: arduino)
+---------------------------------------------------------------------------------------------------------------------------------Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/nordicnrf52/nano33ble.html
+PLATFORM: Nordic nRF52 (9.2.0) > Arduino Nano 33 BLE
+HARDWARE: NRF52840 64MHz, 256KB RAM, 960KB Flash    
+DEBUG: Current (blackmagic) External (blackmagic, cmsis-dap, jlink)
+PACKAGES:
+ - framework-arduino-mbed 2.6.1
+ - tool-bossac-nordicnrf52 1.10901.201022 (1.9.1) 
+ - tool-openocd 2.1100.211028 (11.0)
+ - tool-sreccat 1.164.0 (1.64) 
+ - toolchain-gccarmnoneeabi 1.80201.190214 (8.2.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 33 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- <Utils>
+|-- <tflite_micro_stock>
+|   |-- <Utils>
+Building in release mode
+Checking size .pio\build\nano33ble\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  19.7% (used 51592 bytes from 262144 bytes)
+Flash: [===       ]  34.5% (used 339084 bytes from 983040 bytes)
+Configuring upload protocol...
+AVAILABLE: blackmagic, cmsis-dap, jlink, nrfjprog, nrfutil, sam-ba
+CURRENT: upload_protocol = sam-ba
+Looking for upload port...
+Auto-detected: COM3
+Forcing reset using 1200bps open/close on port COM3
+Waiting for the new upload port...
+Uploading .pio\build\nano33ble\firmware.bin
+Erase flash
+
+Done in 0.002 seconds
+Write 339084 bytes to flash (83 pages)
+
+[                              ] 0% (0/83 pages)
+[=                             ] 3% (3/83 pages)
+[=                             ] 4% (4/83 pages)
+[=                             ] 6% (5/83 pages)
+[==                            ] 7% (6/83 pages)
+[==                            ] 8% (7/83 pages)
+[==                            ] 9% (8/83 pages)
+[===                           ] 10% (9/83 pages)
+[===                           ] 12% (10/83 pages)
+[===                           ] 13% (11/83 pages)
+[====                          ] 14% (12/83 pages)
+[====                          ] 15% (13/83 pages)
+[=====                         ] 16% (14/83 pages)
+[=====                         ] 18% (15/83 pages)
+[=====                         ] 19% (16/83 pages)
+[======                        ] 20% (17/83 pages)
+[======                        ] 21% (18/83 pages)
+[======                        ] 22% (19/83 pages)
+[=======                       ] 24% (20/83 pages)
+[=======                       ] 25% (21/83 pages)
+[=======                       ] 26% (22/83 pages)
+[========                      ] 27% (23/83 pages)
+[========                      ] 28% (24/83 pages)
+[=========                     ] 30% (25/83 pages)
+[=========                     ] 31% (26/83 pages)
+[=========                     ] 32% (27/83 pages)
+[==========                    ] 33% (28/83 pages)
+[==========                    ] 34% (29/83 pages)
+[==========                    ] 36% (30/83 pages)
+[===========                   ] 37% (31/83 pages)
+[===========                   ] 38% (32/83 pages)
+[===========                   ] 39% (33/83 pages)
+[============                  ] 40% (34/83 pages)
+[============                  ] 42% (35/83 pages)
+[=============                 ] 43% (36/83 pages)
+[=============                 ] 44% (37/83 pages)
+[=============                 ] 45% (38/83 pages)
+[==============                ] 46% (39/83 pages)
+[==============                ] 48% (40/83 pages)
+[==============                ] 49% (41/83 pages)
+[===============               ] 50% (42/83 pages)
+[===============               ] 51% (43/83 pages)
+[===============               ] 53% (44/83 pages)
+[================              ] 54% (45/83 pages)
+[================              ] 55% (46/83 pages)
+[================              ] 56% (47/83 pages)
+[=================             ] 57% (48/83 pages)
+[=================             ] 59% (49/83 pages)
+[==================            ] 60% (50/83 pages)
+[==================            ] 61% (51/83 pages)
+[==================            ] 62% (52/83 pages)
+[===================           ] 63% (53/83 pages)
+[===================           ] 65% (54/83 pages)
+[===================           ] 66% (55/83 pages)
+[====================          ] 67% (56/83 pages)
+[====================          ] 68% (57/83 pages)
+[====================          ] 69% (58/83 pages)
+[=====================         ] 71% (59/83 pages)
+[=====================         ] 72% (60/83 pages)
+[======================        ] 73% (61/83 pages)
+[======================        ] 74% (62/83 pages)
+[======================        ] 75% (63/83 pages)
+[=======================       ] 77% (64/83 pages)
+[=======================       ] 78% (65/83 pages)
+[=======================       ] 79% (66/83 pages)
+[========================      ] 80% (67/83 pages)
+[========================      ] 81% (68/83 pages)
+[========================      ] 83% (69/83 pages)
+[=========================     ] 84% (70/83 pages)
+[=========================     ] 85% (71/83 pages)
+[==========================    ] 86% (72/83 pages)
+[==========================    ] 87% (73/83 pages)
+[==========================    ] 89% (74/83 pages)
+[===========================   ] 90% (75/83 pages)
+[===========================   ] 91% (76/83 pages)
+[===========================   ] 92% (77/83 pages)
+[============================  ] 93% (78/83 pages)
+[============================  ] 95% (79/83 pages)
+[============================  ] 96% (80/83 pages)
+[============================= ] 97% (81/83 pages)
+[============================= ] 98% (82/83 pages)
+[==============================] 100% (83/83 pages)
+Done in 13.261 seconds
+================================================= [SUCCESS] Took 29.55 seconds =================================================
+
+
+
